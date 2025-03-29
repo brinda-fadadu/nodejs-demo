@@ -1,0 +1,53 @@
+id,name,countryId,code
+1,Puerto Rico,1,PR
+2,Massachusetts,1,MA
+3,Rhode Island,1,RI
+4,New Hampshire,1,NH
+5,Maine,1,ME
+6,Vermont,1,VT
+7,Connecticut,1,CT
+8,New York,1,NY
+9,New Jersey,1,NJ
+10,Pennsylvania,1,PA
+11,Delaware,1,DE
+12,District of Columbia,1,DC
+13,Virginia,1,VA
+14,Maryland,1,MD
+15,West Virginia,1,WV
+16,North Carolina,1,NC
+17,South Carolina,1,SC
+18,Georgia,1,GA
+19,Florida,1,FL
+20,Alabama,1,AL
+21,Tennessee,1,TN
+22,Mississippi,1,MS
+23,Kentucky,1,KY
+24,Ohio,1,OH
+25,Indiana,1,IN
+26,Michigan,1,MI
+27,Iowa,1,IA
+28,Wisconsin,1,WI
+29,Minnesota,1,MN
+30,South Dakota,1,SD
+31,North Dakota,1,ND
+32,Montana,1,MT
+33,Illinois,1,IL
+34,Missouri,1,MO
+35,Kansas,1,KS
+36,Nebraska,1,NE
+37,Louisiana,1,LA
+38,Arkansas,1,AR
+39,Oklahoma,1,OK
+40,Texas,1,TX
+41,Colorado,1,CO
+42,Wyoming,1,WY
+43,Idaho,1,ID
+44,Utah,1,UT
+45,Arizona,1,AZ
+46,New Mexico,1,NM
+47,Nevada,1,NV
+48,California,1,CA
+49,Hawaii,1,HI
+50,Oregon,1,OR
+51,Washington,1,WA
+52,Alaska,1,AK

@@ -1,0 +1,3432 @@
+[
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CCREM-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CCREM-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CCREM-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CDP",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CEMBM-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CEMBM-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CEMBM-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CEMBM-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CEMBM-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CFSVS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CFSVS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CFSVS-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CFSVS-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CGRSVS-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CGRSVS-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CGRSVS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CGRSVS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CGRSVS-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CGRSVS-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CHERS-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CHERS-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CHERS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CHERS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CHERS-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CHERS-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CMSVS-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CPREP-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CPREP-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CPREP-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CPREP-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CPREP-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CPREP-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CPREP-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CREFI-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CREFI-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CREFI-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CREFI-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CREFI-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CREFI-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CREFI-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CREFI-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CREFI-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSP-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSP-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSP-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "F1    ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSP-F1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSP-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSP-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "R1    ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSP-R1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSP-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSP-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSP-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSP-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSTAF-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSTAF-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSTAF-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSTAF-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSTAF-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSTAF-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSTAF-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSTAF-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSTAF-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSVSCA-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSVSCA-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSVSCA-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSVSCA-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSVSCA-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSVSCA-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSVSCA-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSVSCA-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSVSCA-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CTRSF-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CTRSF-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CTRSF-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CTRSF-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CTRSF-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CTRSF-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CTRSF-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CTRSF-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CTRSF-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CVISI-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CVISI-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CCREM-TC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CCREM-TC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CEMBM-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CEMBM-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CEMBM-TC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CEMBM-TC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CFSVS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CFSVS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CFSVS-TC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CFSVS-TC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G1 ",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CGRSVS-G1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CGRSVS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CGRSVS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CGRSVS-TC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CGRSVS-TC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CHERS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CHERS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CHERS-TC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CHERS-TC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CMSVS-DC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CPREP-DB1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G1 ",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CPREP-G1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CPREP-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CPREP-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CPREP-TC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CPREP-TC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CRECE-TC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CREFI-DB1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CREFI-DC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CREFI-DC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G1 ",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CREFI-G1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CREFI-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CREFI-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CREFI-TC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CREFI-TC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSP-DB1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSP-DC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSP-DC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "F1    ",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSP-F1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G1 ",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSP-G1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "R1    ",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSP-R1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSP-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSP-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSP-TC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSP-TC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSTAF-DB1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSTAF-DC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSTAF-DC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G1 ",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSTAF-G1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSTAF-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSTAF-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSTAF-TC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSTAF-TC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSVSCA-DB1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G1 ",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSVSCA-G1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSVSCA-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSVSCA-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSVSCA-TC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CSVSCA-TC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CTRSF-DB1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CTRSF-DC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CTRSF-DC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G1 ",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CTRSF-G1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CTRSF-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CTRSF-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CTRSF-TC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC2",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CTRSF-TC2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CVISI-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC1",
+    "quantity": 1,
+    "locationCode": "CFS",
+    "itemCode": "CVISI-TC1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CCREM-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CCREM-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CCREM-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CEMBM-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CEMBM-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CEMBM-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CEMBM-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CEMBM-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CFSVS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CFSVS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CFSVS-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CFSVS-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CGRSVS-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CGRSVS-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CGRSVS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CGRSVS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CGRSVS-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CGRSVS-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CHERS-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CHERS-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CHERS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CHERS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CHERS-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CHERS-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CMSVS-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CPREP-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CPREP-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CPREP-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CPREP-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CPREP-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CPREP-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CPREP-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CREFI-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CREFI-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CREFI-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CREFI-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CREFI-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CREFI-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CREFI-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CREFI-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CREFI-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSP-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSP-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSP-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "F1    ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSP-F1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSP-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSP-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "R1    ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSP-R1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSP-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSP-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSP-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSP-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSTAF-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSTAF-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSTAF-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSTAF-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSTAF-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSTAF-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSTAF-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSTAF-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSTAF-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSVSCA-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSVSCA-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSVSCA-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSVSCA-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSVSCA-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSVSCA-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSVSCA-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSVSCA-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSVSCA-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CTRSF-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CTRSF-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CTRSF-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CTRSF-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CTRSF-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CTRSF-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CTRSF-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CTRSF-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CTRSF-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CVISI-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CVISI-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CCREM-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CCREM-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CCREM-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CEMBM-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CEMBM-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CEMBM-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CEMBM-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CEMBM-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CFSVS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CFSVS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CFSVS-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CFSVS-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CGRSVS-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CGRSVS-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CGRSVS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CGRSVS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CGRSVS-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CGRSVS-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CHERS-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CHERS-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CHERS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CHERS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CHERS-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CHERS-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CMSVS-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CPREP-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CPREP-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CPREP-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CPREP-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CPREP-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CPREP-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CPREP-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CREFI-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CREFI-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CREFI-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CREFI-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CREFI-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CREFI-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CREFI-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CREFI-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CREFI-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSP-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSP-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSP-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "F1    ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSP-F1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSP-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSP-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "R1    ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSP-R1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSP-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSP-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSP-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSP-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSTAF-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSTAF-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSTAF-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSTAF-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSTAF-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSTAF-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSTAF-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSTAF-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSTAF-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSVSCA-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSVSCA-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSVSCA-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSVSCA-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSVSCA-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSVSCA-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSVSCA-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSVSCA-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSVSCA-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CTRSF-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CTRSF-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CTRSF-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CTRSF-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CTRSF-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CTRSF-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CTRSF-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CTRSF-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CTRSF-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CVISI-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CVISI-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CCREM-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CCREM-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CCREM-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CEMBM-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CEMBM-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CEMBM-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CEMBM-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CEMBM-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CFSVS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CFSVS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CFSVS-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CFSVS-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CGRSVS-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CGRSVS-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CGRSVS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CGRSVS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CGRSVS-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CGRSVS-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CHERS-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CHERS-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CHERS-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CHERS-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CHERS-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CHERS-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CMSVS-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CPREP-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CPREP-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CPREP-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CPREP-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CPREP-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CPREP-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CPREP-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CREFI-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CREFI-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CREFI-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CREFI-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CREFI-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CREFI-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CREFI-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CREFI-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CREFI-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSP-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSP-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSP-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "F1    ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSP-F1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSP-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSP-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "R1    ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSP-R1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSP-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSP-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSP-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSP-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSTAF-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSTAF-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSTAF-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSTAF-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSTAF-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSTAF-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSTAF-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSTAF-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSTAF-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSVSCA-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSVSCA-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSVSCA-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSVSCA-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSVSCA-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSVSCA-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSVSCA-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSVSCA-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSVSCA-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DB2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CTRSF-DB2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC3 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CTRSF-DC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CTRSF-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G2 ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CTRSF-G2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "G3  ",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CTRSF-G3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CTRSF-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T2",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CTRSF-T2",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CTRSF-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC4",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CTRSF-TC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T1",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CVISI-T1",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "TC3",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CVISI-TC3",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "BV100011H",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "CCS",
+    "itemCode": "CCREM-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "CCS",
+    "itemCode": "CSP-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "CCS",
+    "itemCode": "CREFI-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "CCS",
+    "itemCode": "CSTAF-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "CCS",
+    "itemCode": "CTRSF-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "DC4 ",
+    "quantity": 1,
+    "locationCode": "CCS",
+    "itemCode": "CSVSCA-DC4",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CEMBM-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CEMBM-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CEMBM-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CEMBM-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CFSVS-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CFSVS-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CGRSVS-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CGRSVS-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CGRSVS-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CGRSVS-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CHERS-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CHERS-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CHERS-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CHERS-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CPREP-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CPREP-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CPREP-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CPREP-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CREFI-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CREFI-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CREFI-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CREFI-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSP-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSP-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSP-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSP-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSTAF-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSTAF-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSTAF-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSTAF-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSVSCA-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSVSCA-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CSVSCA-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CSVSCA-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CTRSF-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CTRSF-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CTRSF-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CTRSF-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CEMBM-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CEMBM-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CFSVS-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CGRSVS-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CGRSVS-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CHERS-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CHERS-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CPREP-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CPREP-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CREFI-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CREFI-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSP-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSP-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSTAF-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSTAF-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSVSCA-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CSVSCA-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CTRSF-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CTRSF-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CEMBM-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CEMBM-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CFSVS-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CGRSVS-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CGRSVS-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CHERS-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CHERS-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CPREP-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CPREP-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CREFI-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CREFI-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSP-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSP-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSTAF-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSTAF-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSVSCA-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CSVSCA-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CTRSF-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CTRSF-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CVISI-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CVISI-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CVISI-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CFSVS-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "ACC",
+    "itemCode": "CFSVS-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CFSVS-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CFSVS-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CRECE-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "CNG",
+    "itemCode": "CRECE-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CRECE-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "MDC",
+    "itemCode": "CRECE-T6",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T5",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CRECE-T5",
+    "isActive": "true"
+  },
+  {
+    "packageCode": "T6",
+    "quantity": 1,
+    "locationCode": "SSO",
+    "itemCode": "CRECE-T6",
+    "isActive": "true"
+  }
+]

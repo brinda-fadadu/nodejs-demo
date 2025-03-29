@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Obituary PDF</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+    .printreceipt-wrapper {
+      margin: 30px 0;
+      padding: 16px 48px;
+      background-color: #fff;
+    }
+
+    .printreceipt-wrapper .printreceipt-header {
+      width: 100%;
+      padding-bottom: 8px;
+    }
+
+    .printreceipt-wrapper .printreceipt-header>div {
+      text-align: center;
+    }
+
+    .printreceipt-wrapper .printreceipt-header .-logo {
+      width: 300px;
+      height: 300px;
+      object-fit: contain;
+    }
+
+    .printreceipt-wrapper .printreceipt-header.-decedent-name {
+      color: #616161;
+      margin: 0;
+      font-size: 40px;
+      line-height: 25px;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .receiptview {
+      margin-top: 30px;
+      border-bottom: 1px solid #000;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .receiptview.viewpayments {
+      border-top: 1px solid rgba(151, 151, 151, 0.2);
+      padding-top: 30px;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .receiptview .receiptview-header {
+      margin-bottom: 20px;
+      width: 500px;
+      margin-left: 25%;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .receiptview .receiptview-header .receiptview-label-info {
+      margin-bottom: 4px;
+      display: -webkit-box;
+      -webkit-box-pack: justify;
+      height: 25px;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .receiptview .receiptview-header .receiptview-label-info .receiptview-label {
+    color: #212121;
+    margin: 0;
+    line-height: 66px;
+    font-size: 20px;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .receiptview .receiptview-header .receiptview-label-info .receiptview-date {
+      padding-top: 4px;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .receiptview .receiptview-header .receiptview-label-number {
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    text-align: left;
+    }
+    
+    .printreceipt-wrapper .printreceipt-body .receiptview .receiptview-header .receiptview-label-number>p {
+      color: #616161;
+      font-size: 18px;
+      line-height: 15px;
+      padding-top: 5px;
+    }
+
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper {
+      padding-left: 16px;
+      margin-bottom: 16px;
+      background-color: rgba(223, 223, 223, 0.2);
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.purchaser-details {
+      background-color: #f7fbf8;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.purchaser-details .purchasers-list {
+      color: #212121;
+      margin: 0;
+      font-size: 18px;
+      line-height: 15px;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.decedents-details .decedents-list {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.decedents-details .decedents-list:after {
+      clear: both;
+      display: table;
+      content: " ";
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.decedents-details .decedents-list>li {
+      /* border-right: solid 2px rgba(151, 151, 151, 0.1); */
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.decedents-details .decedents-list>li {
+      width: 27%;
+      float: left;
+      display: inline-block;
+      align-items: center;
+      word-break: break-all;
+      height: 100px;
+      margin: 6px;
+
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.decedents-details .decedents-list>li>p {
+      color: #212121;
+      display: block;
+      font-size: 18px;
+      line-height: 15px;
+      white-space: normal;
+      margin-bottom: 4px;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.decedents-details .decedents-list>li>span {
+      color: #979797;
+      display: block;
+      font-size: 14px;
+      line-height: 12px;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.decedents-details .decedents-list>li:nth-child(n+2) {
+      padding-left: 24px;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.decedents-details .decedents-list>li:nth-child(3n + 4) {
+      padding-left: 0px !important;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.decedents-details .decedents-list>li:nth-child(3n) {
+      border-right: 0px !important;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.payments-details ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.payments-details ul.payments-info>li {
+      color: #616161;
+      display: inline-block;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.payments-details ul.payments-info>li.card-number .paycard-info .paycard-img {
+      width: 30px;
+      height: 21px;
+      object-fit: contain;
+      margin-right: 8px;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.payments-details ul.payments-info>li.card-number .paycard-info .paycard-number {
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.payments-details ul.payments-info>li.card-name {
+      text-align: center;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.payments-details ul.payments-info>li.card-amount {
+      font-size: 16px;
+      text-align: right;
+      font-weight: bold;
+      line-height: 19px;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.payments-details ul.payments-info>li:first-child {
+      width: 38%;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.payments-details ul.payments-info>li:nth-of-type(2) {
+      width: 35%;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.payments-details ul.payments-info>li:nth-of-type(3) {
+      width: 25%;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.payments-details ul.payments-label {
+      margin-top: 12px;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.payments-details ul.payments-label>li {
+      color: #000;
+      border: 1px solid #ecfff1;
+      display: inline-block;
+      padding: 4px 7px;
+      font-size: 10px;
+      line-height: 12px;
+      background-color: #f7fbf8;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper.payments-details ul.payments-label:not(:last-child) {
+      border-right: 8px;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper .cardwrapper-header {
+      padding: 16px 0;
+      border-bottom: 1px solid rgba(151, 151, 151, 0.2);
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper .cardwrapper-header h5 {
+      color: #212121;
+      margin: 0;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .printreceipt-wrapper .printreceipt-body .cardwrapper .cardwrapper-body {
+      padding: 16px 16px 16px 0;
+    }
+
+    .notes {
+      width: 500px;
+      text-align: left;
+      margin-left: 21%;
+      margin-top: 5%;
+      font-size: 16px;
+     line-height: 27px;
+     word-break: break-word;
+     font-family: "Lato", sans-serif;
+    font-weight: 400 !important;
+    }
+
+    @media print {
+      .printreceipt-wrapper .printreceipt-body .cardwrapper {
+        padding-left: 0px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="printreceipt-wrapper">
+    <div class="printreceipt-header">
+      {{#if pictureUrl}}
+      <div class="">
+        <img src="{{pictureUrl}}" class="" alt=" " />
+      </div>
+      {{/if}}
+      <p class="-decedent-name">
+        {{decedentFullName}}
+      </p>
+    </div>
+    <div class="printreceipt-body">
+      <div class="receiptview">
+        <div class="receiptview-header">
+          <div class="receiptview-label-info">
+            <h4 class="receiptview-label">Date of Birth</h4>
+            <h4 class="receiptview-label">Date of Death</h4>
+          </div>
+          <div class="receiptview-label-number">
+            <p>{{dateOfBirth}}</p>
+            <p>{{dateOfDeath}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="notes">{{obituary}}</div>
+  </div>
+</body>
+
+</html>

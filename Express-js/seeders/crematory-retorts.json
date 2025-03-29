@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Cemetery Association Crematory CR197",
+        "chamber": "Chamber 1"
+    },
+    {
+        "id": 2,
+        "name": "Cremation Center CRTBD",
+        "chamber": "Chambers 1"
+    },
+    {
+        "id": 3,
+        "name": "Cremation Center CRTBD",
+        "chamber": "Chambers 2"
+    },
+    {
+        "id": 4,
+        "name": "Cremation Center CRTBD",
+        "chamber": "Chambers 3"
+    },
+    {
+        "id": 5,
+        "name": "Cremation Center CRTBD",
+        "chamber": "Chambers 4"
+    },
+    {
+        "id": 6,
+        "name": "Cremation Center CRTBD",
+        "chamber": "Chambers 5"
+    }
+]

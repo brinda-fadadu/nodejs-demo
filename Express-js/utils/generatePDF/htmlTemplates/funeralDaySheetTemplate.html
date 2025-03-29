@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Funeral Day Sheet</title>
+    <style>
+      .day-sheet-wrapper {
+            font-family: Lato, Helvetica, sans-serif;
+        }
+        .day-sheet-wrapper .container-ribbon {
+            background: #f3f3f3;
+            padding: 15px 20px;
+            background-color: #8dd7cf;
+            font-size: 24px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .day-sheet-wrapper .containe-service-header {
+            padding: 5px 20px;
+            background-color: #fbe192;
+            font-size: 20px;
+            font-family: Lato, Helvetica, sans-serif;
+        }
+
+        .day-sheet-wrapper .day-sheet-header {
+            display: -webkit-box;
+            display: -webkit-flex;
+            align-items: center;
+            -webkit-box-pack: justify;
+            padding: 15px 20px;
+            margin-top: 3px;
+            background: #dfe6ee;
+        }
+
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-left .funeral-cemetery-id {
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 30px;
+            color: #212121;
+            margin-bottom: 7px;
+        }
+
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-left .funeral-cemetery-id .cemetery-id {
+            border-right: #212121 solid 3px;
+            padding-right: 5px;
+        }
+
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-left .called-id {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19px;
+            color: #227868;
+        }
+
+        .called-id:not(:last-child){
+            padding-right: 5px;
+            margin-right: 5px;
+            border-right: #227868 solid 3px;
+        }
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-left {
+            width: 55%;
+        }
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-right {
+            width: 45%;
+        }
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-right .date-time-info {
+            line-height: 22px;
+            font-size: 18px;
+            color: #212121;
+            margin-bottom: 10px;
+        }
+
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-right .date-time-info .date {
+            border-right: #212121 solid 2px;
+            padding-right: 5px;
+        }
+
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-right .location {
+            font-size: 16px;
+            line-height: 22px;
+            color: #616161;
+        }
+
+        .day-sheet-content {
+            background-color: #fff;
+            padding: 5px 20px;
+            font-size: 22px;
+        }
+
+        .day-sheet-content .container-card-item {
+            padding: 8px 0;
+            display: -webkit-box;
+            margin-bottom: 20px;
+        }
+
+        .day-sheet-content .container-card-item .item-card {
+            width: 25%;
+        }
+
+        .item-card .item-card-value {
+            color: #212121;
+            line-height: 23px;
+            width: 100%;
+            word-break: break-all;
+        }
+
+        .item-card {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #979797;
+        }
+
+        .day-sheet-content .container-card-item-info .item-card {
+            width: 100% !important;
+        }
+
+        .day-sheet-content .container-steps-notes {
+            display: -webkit-box;
+            margin-top: 10px;
+            position: relative;
+            -webkit-box-pack: justify;
+        }
+
+        .day-sheet-content .container-steps-notes .table {
+            margin-bottom: 0;    
+            width: 48%;      
+        }
+
+        .day-sheet-content .container-sample-card .title-sample-card {
+            display: -webkit-box;
+            background-color: #f3f2f2;
+            font-family: "Lato", sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            color: #2e7d32;
+            text-transform: uppercase;
+            margin: 0 !important;
+            padding: 10px;
+        }
+        .day-sheet-content .container-sample-card p{
+            font-size: 16px;
+        }
+
+        .day-sheet-content .table {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .day-sheet-content .table .thead th, .day-sheet-content .table tbody td {
+            font-size: 16px;
+            color: #212121;
+            padding: 10px;
+            vertical-align: middle;
+            width: 33.33%;
+        }
+
+        .day-sheet-content .table .thead {
+            background-color: #f7f7f7;
+        }
+
+        .day-sheet-content .table .thead th {
+            font-size: 16px;
+            min-height: 35px;
+            text-transform: uppercase;
+            text-align: left;
+            color: #2e7d32;
+        }
+
+        body,html {
+            padding: 0;
+            margin: 0;
+            font-size: 0;
+        }
+        body *{
+            box-sizing: border-box;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="day-sheet-wrapper">
+        {{assign "perviousDate" ""}}
+        {{#each funeralResult}}
+        <div class="cards-results-grouped" style="page-break-after: always;">
+            {{assign "currentDate" schedulingBeginningTime}}
+            {{#notEqualsToCondition @root.currentDate @root.perviousDate}}
+            <div class="container-ribbon">
+                {{dateFormat schedulingBeginningTime "fullDate"}}
+            </div>
+            {{/notEqualsToCondition}}
+            {{assign "perviousDate" schedulingBeginningTime}}
+            <div class="card-result" style="page-break-after: always;">
+                <div class="day-sheet-header">
+                    <div class="day-sheet-header-left">
+                        <div class="funeral-cemetery-id">
+                            <span class="cemetery-id">{{agreementContractNumber}}</span>
+                            <span>{{personName}}</span>
+                        </div>
+                        <span class="called-id">{{onePortalId}}</span>
+                    </div>
+                    <div class="day-sheet-header-right">
+                        <div class="date-time-info">
+                            <span class="date">{{dateFormat schedulingBeginningTime "LLLL"}}</span>
+                            <!-- <span>2020-08-29T09:14:33.001Z</span> -->
+                            <span>{{dateFormat schedulingBeginningTime "LT"}} - {{dateFormat schedulingEndingTime "LT"}}</span>
+                        </div>
+                        <div class="location">{{serviceLocationAddress}}</div>
+                    </div>
+                </div>
+                <div class="containe-service-header">
+                    Funeral service ({{scheduledServiceName}})
+                </div>
+                <div class="day-sheet-content">
+                    <div class="container-card-item" >
+                        <div class="item-card">
+                            <div class="item-card-name">Arranger</div>
+                            <div class="item-card-value">{{arranger}}</div>
+                        </div>
+                        <div class="item-card">
+                            <div class="item-card-name">Embalmer</div>
+                            <div class="item-card-value">{{embalmer}}</div>
+                        </div>
+                        <div class="item-card">
+                            <div class="item-card-name">Death Certificate</div>
+                            <div class="item-card-value">{{deathCertificateStatus}}</div>
+                        </div>
+                        <div class="item-card">
+                            <div class="item-card-name">Casket</div>
+                            <div class="item-card-value">{{casketSelectedForScheduledService}}</div>
+                        </div>
+                    </div>
+                    <div class="container-card-item">
+                        <div class="item-card">
+                            <div class="item-card-name">Chapel</div>
+                            <div class="item-card-value">{{chapelName}}</div>
+                        </div>
+                        <div class="item-card">
+                            <div class="item-card-name">Burial Site</div>
+                            <div class="item-card-value">{{burialSite}}</div>
+                        </div>
+                        <div class="item-card">
+                            <div class="item-card-name">Crematory Facility</div>
+                            <div class="item-card-value">{{crematoryRetort}}</div>
+                        </div>
+                        <div class="item-card">
+                            <div class="item-card-name">Reception Center</div>
+                            <div class="item-card-value">{{receptionName}}</div>
+                        </div>
+                    </div>
+                    <table class="table">
+                        <tr class="thead">
+                          <th>Hearse</th>
+                          <th>Assigned To</th>
+                          <th>Needed by time</th>
+                        </tr>
+                        <tbody>
+                            {{#ifCondOR hearseDetails.vehicleName hearseDetails.employeeName hearseDetails.startTime}}
+                          <tr>
+                            <td>{{hearseDetails.vehicleName}} </td>
+                            <td>{{hearseDetails.employeeName}}</td>
+                            <td>
+                            {{#if hearseDetails}}
+                                   {{dateFormat hearseDetails.startTime "LT"}}
+                            {{/if}}
+                            </td>
+                          </tr>
+                          {{/ifCondOR}}
+                        </tbody>
+                    </table>
+                    <table class="table">
+                        <tr class="thead">
+                          <th>Utility car</th>
+                          <th>Assigned To</th>
+                          <th>Needed by time</th>
+                        </tr>
+                        <tbody>
+                          {{#each utilityCarDetails}}
+                            <tr>
+                                <td>{{vehicleName}}</td>
+                                <td>{{employeeName}}</td>
+                                <td>{{dateFormat startTime "LT"}}</td>
+                            </tr>
+                          {{/each}}
+                         
+                        </tbody>
+                    </table>
+                    <div class="container-sample-card">
+                        <h4 class="title-sample-card">Urn Details</h4>
+                    </div>
+                    <div class="container-card-item" >
+                        <div class="item-card">
+                            <div class="item-card-name">Urn</div>
+                            <div class="item-card-value">{{urn}}</div>
+                        </div>
+                        <div class="item-card">
+                            <div class="item-card-name">Urn Type</div>
+                            <div class="item-card-value">{{urnType}}</div>
+                        </div>
+                        <div class="item-card">
+                            <div class="item-card-name">Received Date</div>
+                            <div class="item-card-value">{{dateFormat urnReceivedDate "MM/DD/YYYY"}}</div>
+                        </div>
+                    </div>
+                    <div class="container-card-item" >
+                        <div class="item-card">
+                            <div class="item-card-name">Transfer Required</div>
+                            <div class="item-card-value">{{urnTransferRequired}}</div>
+                        </div>
+                    </div>
+                    <div class="container-sample-card">
+                        <h4 class="title-sample-card">Pall Bearers</h4>
+                                {{#each pallbearers}}
+                                    <p>{{this}}</p>
+                                {{/each}}
+                    </div>
+                    <table class="table">
+                        <tr class="thead">
+                          <th>Staff</th>
+                          <th>Task</th>
+                          <th>Needed by time</th>
+                        </tr>
+                        <tbody>
+                            {{#each employeesSchedule}}
+                            <tr>
+                                <td>{{employeeName}}</td>
+                                <td>{{workOrderTaskName}}</td>
+                                <td>{{dateFormat startTime "LT"}}</td>
+                            </tr>
+                            {{/each}}
+                        </tbody>
+                    </table>
+                    <table class="table">
+                        <tr class="thead">
+                          <th>Selected Sub Services</th>
+                          <th>Beginning time</th>
+                          <th>End Time</th>
+                        </tr>
+                        <tbody>
+                            {{#each subServicesDetails}}
+                            <tr>
+                                <td>{{subServiceName}}</td>
+                                <td>{{dateFormat startTime "LT"}}</td>
+                                <td>{{dateFormat endTime "LT"}}</td>
+                            </tr>
+                            {{/each}}
+                        </tbody>
+                    </table>
+                    <div class="container-sample-card">
+                        <h4 class="title-sample-card">Staff Notes</h4>
+                                {{#each notesFromStaff}}
+                                    <p>{{this}}</p>
+                                {{/each}}
+                    </div>
+                    <div class="container-sample-card">
+                        <h4 class="title-sample-card">Family Notes</h4>
+                                {{#each notesFromFamily}}
+                                    <p>{{this}}</p>
+                                {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+
+</body>
+
+</html>

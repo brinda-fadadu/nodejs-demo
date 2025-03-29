@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+  <style>
+.table-one-page-veiw {
+    width: 100%;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529 !important;
+} 
+ .table-one-page-veiw thead {
+    background-color: #f3f3f3;
+    border-bottom: none;
+    border-bottom-width: 0;
+    text-align: left;
+}
+.one-page-day-sheet-wrapper .one-page-view-day-sheet .table-one-page-veiw thead {
+    background-color: #f3f3f3;
+    color: #2e7d32;
+    border-bottom: none;
+    border-bottom-width: 0;
+}
+.table-one-page-veiw thead tr th {
+    vertical-align: top !important;
+    font-size: 15px;
+}
+     .table-one-page-veiw thead tr th:nth-child(1) {
+            width: 8%;
+            max-width: 7%;
+          }
+          .table-one-page-veiw thead tr th:nth-child(2) {
+            width: 14%;
+            max-width: 14%;
+          }
+          .table-one-page-veiw thead tr th:nth-child(3) {
+            width: 15%;
+            max-width: 15%;
+          }
+          .table-one-page-veiw thead tr th:nth-child(4) {
+            width: 9%;
+            max-width: 9%;
+          }
+          .table-one-page-veiw thead tr th:nth-child(5) {
+            width: 12%;
+            max-width: 12%;
+          }
+          .table-one-page-veiw thead tr th:nth-child(6) {
+            width: 21%;
+            max-width: 21%;
+          }
+
+.table-one-page-veiw tbody td {
+    color: #212121;
+    padding: 10px;
+    vertical-align: top;
+    word-break: break-all;
+}
+.table-one-page-veiw tbody .one-page-blod {
+    font-weight: 700;
+}
+    .table-one-page-veiw tbody .one-page-not-blod {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #979797;
+}
+ .table-one-page-veiw tbody .statement-no {
+    font-weight: 500;
+}
+tr td{
+  border: 1px solid black;
+}
+tr > th{
+  border: 1px solid black;
+}
+  </style>
+</head>
+<body>
+   <div class="one-page-view-day-sheet">
+            <div>
+              <table class="table-one-page-veiw table">
+                <thead>
+                  <tr>
+                    <th>
+                      <p>Arranger</p>
+                      <p>Statement No</p>
+                    </th>
+                    <th>
+                      <p>Decedent (last, first)</p>
+                      <p>Casket:</p>
+                      <p>DC:</p>
+                      <p>Embalmer:</p>
+                    </th>
+                    <th>
+                      <p>ServiceType/ Chapel</p>
+                      <p>Final Disposition</p>
+                      <p>Cremation Type - Date</p>
+                    </th>
+                    <th>
+                      <p>Day of Week</p>
+                      <p>Service Date</p>
+                      <p>Service Time</p>
+                    </th>
+                    <th>
+                      <p>Funeral Director</p>
+                      <p>Staff</p>
+                      <p>Hearse:</p>
+                      <p>Flower Car:</p>
+                    </th>
+                    <th>
+                      <p>Pallbearers</p>
+                    </th>
+                    <th>
+                      <p>Service Notes</p>
+                      <p>Resource Notes</p>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {{#each funeralResult}}
+                  <tr>
+                    <td>
+                      <p class="one-page-blod"> {{arranger}}</p>
+                      <p class="statement-no">{{agreementContractNumber}}</p>
+                    </td>
+                    <td>
+                      <p class="one-page-blod"> {{personName}}</p>
+                      <p>
+                        <span class="one-page-not-blod">Casket: </span>
+                        <span class="one-page-blod">
+                          {{casketSelectedForScheduledService}}
+                        </span>
+                      </p>
+                      <p>
+                        <span class="one-page-not-blod">DC: </span>
+                        <span class="one-page-blod">{{deathCertificateStatus}}</span>
+                      </p>
+                      <p>
+                        <span class="one-page-not-blod"> Embalmer: </span>
+                        <span class="one-page-blod">{{embalmer}}</span>
+                      </p>
+                    </td>
+                    <td>
+                      <p class="one-page-blod">
+                        {{scheduledServiceName}} / {{chapelName}}
+                      </p>
+                      <p class="one-page-blod">{{finalDisposition}}</p>
+                      <p class="one-page-blod">{{cremationType}}</p>
+                    </td>
+                    <td>
+                      <p class="one-page-blod">{{ServiceDay}}</p>
+                      <p class="one-page-blod">{{ServiceDate}}</p>
+                      <p class="one-page-blod">{{beginningTime}}- {{endTime}}</p>
+                    </td>
+                    <td>
+                      <p class="one-page-blod">{{funeralDirector}}</p>
+                      <p class="one-page-blod">
+                        {{employeesScheduleText}}
+                      </p>
+                      <p>
+                        <span class="one-page-not-blod">Hearse:</span>
+                        {{hearseDetails}}
+                      </p>
+                      <p>
+                        <span class="one-page-not-blod">Flower Car:</span>
+                        <span class="one-page-blod">
+                          {{utilityCarDetailsText}}
+                        </span>
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                       {{pallbearersText}}
+                      </p>
+                    </td>
+                    <td>
+                      <p>
+                        {{#each schedulingNotes}}
+                        <p>{{this}}</p>
+                    {{/each}}
+                      </p>
+                      <p>
+                        {{#each workOrderNotes}}
+                        <p>{{this}}</p>
+                    {{/each}}
+                      </p>
+                    </td>
+                  </tr>
+                  {{/each}}
+                </tbody>
+              </table>
+            </div>
+          </div>
+       
+        
+</body>
+</html>
+
+
+
+
+
+

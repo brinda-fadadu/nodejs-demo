@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Cemetery Day Sheet</title>
+    <style>
+        .day-sheet-wrapper {
+            font-family: Lato, Helvetica, sans-serif;
+        }
+        .day-sheet-wrapper .container-ribbon {
+            background: #f3f3f3;
+            padding: 15px 20px;
+            background-color: #8dd7cf;
+            font-size: 18px;
+            font-weight: 700;
+            color: white;
+        }
+
+        .day-sheet-wrapper .containe-service-header {
+            padding: 5px 20px;
+            background-color: #fbe192;
+            font-size: 14px;
+            font-family: Lato, Helvetica, sans-serif;
+        }
+
+        .day-sheet-wrapper .day-sheet-header {
+            display: -webkit-box;
+            display: -webkit-flex;
+            align-items: center;
+            -webkit-box-pack: justify;
+            padding: 10px 20px;
+            margin-top: 3px;
+            background: #dfe6ee;
+            font-size: 16px;
+        }
+
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-left .funeral-cemetery-id {
+            font-weight: 700;
+            line-height: 15px;
+            color: #212121;
+            margin-bottom: 7px;
+        }
+
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-left .cemetery-id {
+            border-right: #212121 solid 2px;
+            padding-right: 5px;
+        }
+
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-left .called-id {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 15px;
+            color: #227868;
+        }
+
+        .called-id.active {
+            padding-right: 5px;
+            border-right: #227868 solid 2px;
+        }
+
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-left {
+            width: 60%;
+        }
+
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-right {
+            width: 40%;
+            font-size: 15px;
+        }
+
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-right .date-time-info {
+            color: #212121;
+            margin-bottom: 10px;
+            line-height: 15px;
+        }
+
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-right .date-time-info .date {
+            border-right: #212121 solid 2px;
+            padding-right: 5px;
+        }
+
+        .day-sheet-wrapper .day-sheet-header .day-sheet-header-right .location {
+            color: #616161;
+            line-height: 15px;
+        }
+
+        .day-sheet-content {
+            background-color: #F8F9FA;
+            padding: 5px 20px;
+            font-size: 14px;
+        }
+
+        .day-sheet-content .container-card-item {
+            padding: 5px 0;
+            display: -webkit-box;
+        }
+
+        .day-sheet-content .container-card-item .item-card:nth-child(1) {
+            width: 48%;
+        }
+
+        .day-sheet-content .container-card-item .item-card:nth-child(n+2) {
+            width: 24% !important;
+        }
+
+        .item-card .item-card-value {
+            color: #212121;
+            line-height: 18px;
+        }
+        .instructions .item-card-value-instructions {
+            color: #212121;
+            line-height: 18px;
+        }
+
+        .propertyName {
+            width: 100% !important
+        }
+        .instructions {
+            width: 48% ;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 10px;
+            color: #979797;
+        }
+        .item-card {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 10px;
+            color: #979797;
+        }
+
+        .day-sheet-content .container-card-item-info .item-card {
+            width: 100% !important;
+        }
+
+        .day-sheet-content .container-steps-notes {
+            display: -webkit-box;
+            margin-top: 10px;
+            position: relative;
+            -webkit-box-pack: justify;
+            width: 100%
+        }
+
+        .day-sheet-content .container-steps-notes .table {
+            margin-bottom: 0;
+            width: 50%;
+        }
+
+        .staff-note-card {
+            width: 100%;
+        }
+
+        .day-sheet-content .container-sample-card .title-sample-card {
+            /* display: -webkit-box; */
+            background-color: #f3f2f2;
+            font-family: "Lato", sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+            color: #2e7d32;
+            text-transform: uppercase;
+            padding: 10px;
+            margin: 2px;
+            padding-left: 0px !important;
+        }
+
+        .day-sheet-content .container-steps-notes .table {
+            border-right: #DFE6EE solid 3px;
+        }
+
+        .day-sheet-content .container-steps-notes .table thead tr th {
+            font-size: 16px;
+            height: 30px;
+            text-transform: uppercase;
+            background-color: #f3f2f2;
+            color: #2e7d32;
+            text-align: left;
+            font-weight: 700;
+            padding-left: 14px;
+            font-family: "Lato", sans-serif;
+        }
+
+        .day-sheet-content .container-steps-notes .table tbody td {
+            font-size: 14px;
+        }
+
+        .staff-note-value {
+            word-wrap: break-word;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 18px;
+            padding: 5px;
+        }
+
+        .success {
+            color: #8ED5CF;
+        }
+
+        .danger {
+            color: #E6A4AF;
+        }
+
+        body,
+        html {
+            padding: 0;
+            margin: 0;
+            font-size: 0;
+        }
+
+        .error-message {
+            padding-top: 1px;
+            color: #d0021b;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="day-sheet-wrapper">
+        {{assign "perviousDate" ""}}
+        {{#each cemeteryResult}}
+        <div class="cards-results-grouped" style="page-break-after: always;">
+            {{assign "currentDate" schedulingBeginningTime}}
+            {{#notEqualsToCondition @root.currentDate @root.perviousDate}}
+            <div class="container-ribbon">
+                {{dateFormat schedulingBeginningTime "fullDate"}}
+            </div>
+            {{/notEqualsToCondition}}
+            {{assign "perviousDate" schedulingBeginningTime}}
+            <div class="card-result" style="page-break-after: always;">
+                <div class="day-sheet-header">
+                    <div class="day-sheet-header-left">
+                        <div class="funeral-cemetery-id">
+                            {{get_length agreementContractNumbers}}
+                            {{#each agreementContractNumbers }}
+                            <span class="cemetery-id  active">{{this}}</span>
+                            {{/each}}
+                            <span>{{personName}}</span>
+                        </div>
+                        <span class="called-id">{{onePortalId}}</span>
+                        {{#if paidInFull}}
+                        <div class="error-message">{{paidInFull}}</div>
+                        {{/if}}
+                    </div>
+                    <div class="day-sheet-header-right">
+                        <div class="date-time-info">
+                            <span class="date">{{dateFormat schedulingBeginningTime "LLLL"}}</span>
+                            <span>{{dateFormat schedulingBeginningTime "LT"}} -
+                                {{dateFormat schedulingEndingTime "LT"}}</span>
+                        </div>
+                        <div class="location">{{propertyName}}</div>
+                    </div>
+                </div>
+                <div class="containe-service-header">
+                    {{scheduledServiceName}} ({{scheduledServiceType}})
+                </div>
+                <div class="day-sheet-content">
+                    <div class="container-card-item">
+                        <div class="item-card">
+                            <div class="item-card-name">Funeral Director</div>
+                            <div class="item-card-value">{{funeralArrangementDetails.funeralDirector}}</div>
+                        </div>
+                        <div class="item-card">
+                            <div class="item-card-name">APC</div>
+                            <div class="item-card-value">{{apc}}</div>
+                        </div>
+                        <div class="item-card">
+                            <div class="item-card-name">Lead</div>
+                            <div class="item-card-value">{{leadIn}}</div>
+                        </div>
+                    </div>
+                    <div class="container-card-item">
+                        <div class="item-card">
+                            <div class="item-card-name">Crematory Retort</div>
+                            <div class="item-card-value">{{crematoryRetort}}</div>
+                        </div>
+                    </div>
+                    <div class="container-sample-card">
+                        <h4 class="title-sample-card">Cremated Remains Info</h4>
+                        <div class="container-card-item">
+                            <div class="item-card">
+                                <div class="item-card-name">Current Status</div>
+                                <div class="item-card-value">{{crematedRemainsCurrentStatus}} </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-sample-card">
+                        <h4 class="title-sample-card">Property & merchandise details</h4>
+                        <div class="container-card-item">
+                            <div class="item-card propertyName">
+                                <div class="item-card-name">Property</div>
+                                <div class="item-card-value">{{propertyName}}</div>
+                            </div>
+                        </div>
+                        <div class="container-card-item">
+                            <div class="item-card">
+                                <div class="item-card-name">Vault</div>
+                                <div class="item-card-value">{{valutDetails.name}}</div>
+                            </div>
+                            <div class="item-card">
+                                <div class="item-card-name">Expected(Vault)</div>
+                                <div class="item-card-value">{{dateFormat valutDetails.expectedDate 'MM/DD/YYYY'}}</div>
+                            </div>
+                            <div class="item-card">
+                                <div class="item-card-name">Pre-Buried</div>
+
+                                <div class="item-card-value">
+                                    {{#if isPreBuried}}
+                                    Yes
+                                    {{^}}
+                                    -
+                                    {{/if}}
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="container-card-item">
+                            <div class="item-card">
+                                <div class="item-card-name">Casket</div>
+                                <div class="item-card-value">{{casketDetails.name}}</div>
+                            </div>
+                            <div class="item-card">
+                                <div class="item-card-name">Expected(Casket)</div>
+                                <div class="item-card-value">{{dateFormat casketDetails.expectedDate 'MM/DD/YYYY'}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-card-item">
+                            <div class="item-card">
+                                <div class="item-card-name">Urn</div>
+                                <div class="item-card-value">{{urnDetails.name}}</div>
+                            </div>
+                            <div class="item-card">
+                                <div class="item-card-name">Expected(Urn)</div>
+                                <div class="item-card-value">{{dateFormat urnDetails.expectedDate 'MM/DD/YYYY'}}</div>
+                            </div>
+                        </div>
+                        <div class="container-card-item">
+                            <div class="item-card">
+                                <div class="item-card-name">Urn Size</div>
+                                <div class="item-card-value">{{urnDetails.width}}H' {{urnDetails.height}}W'
+                                    {{urnDetails.depth}}D' </div>
+                            </div>
+                            <div class="item-card">
+                                <div class="item-card-name">Urn Type</div>
+                                <div class="item-card-value">{{urnDetails.urnType}}</div>
+                            </div>
+                        </div>
+                        <div class="container-card-item">
+                            <div class="item-card">
+                                <div class="item-card-name">Transfer Notes</div>
+                                <div class="item-card-value">{{urnDetails.isTransferRequired}}</div>
+                            </div>
+                        </div>
+                        <div class="container-card-item">
+                            <div class="instructions">
+                                <div class="item-card-name">Memorial Information</div>
+                                <div class="item-card-value-instructions">{{memorialInfo}} </div>
+                            </div>
+                            <div class="instructions">
+                                <div class="item-card-name">Other Instructions</div>
+                                <div class="item-card-value-instructions">{{otherInstructions}} </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-sample-card">
+                        <h4 class="title-sample-card">Funeral/Related Services</h4>
+                        <div class="container-card-item">
+                            <div class="item-card">
+                                <div class="item-card-name">Funeral Home</div>
+                                <div class="item-card-value">{{funeralArrangementDetails.funeralHome}}</div>
+                            </div>
+                            <div class="item-card">
+                                <div class="item-card-name">Funeral Home Phone</div>
+                                <div class="item-card-value">{{funeralArrangementDetails.funeralHomePhone}}</div>
+                            </div>
+                        </div>
+                        <div class="container-card-item">
+                            <div class="item-card">
+                                <div class="item-card-name">Funeral Director</div>
+                                <div class="item-card-value">{{funeralArrangementDetails.funeralDirector}}</div>
+                            </div>
+                            <div class="item-card">
+                                <div class="item-card-name">Phone Number</div>
+                                <div class="item-card-value">{{funeralArrangementDetails.phone}}</div>
+                            </div>
+                        </div>
+                        {{{FuneralArrangementSectionLocation funeralArrangementSectionLocations }}}
+                        <div class="container-card-item container-card-item-info">
+                            <div class="item-card">
+                                <div class="item-card-name">Special Instructions</div>
+                                <div class="item-card-value">{{instruction}}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-steps-notes" style="page-break-inside: always;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Validation Steps</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1. Review Electronic Platted Record?</td>
+                                    <td>
+                                        {{#if reviewElectroicPlattedRecord}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2. Confirm Burial Space w/Family & Operation?</td>
+                                    <td>{{#if confirmBurialSpaceWithFamilyAndOperation}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>3. PN turn AN ONLY: Review Trust Statement?</td>
+                                    <td>{{#if reviewTrustStatement}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>4. Electronic CIF file created?</td>
+                                    <td>{{#if electronicCIF}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>5. Confirmed Placement Date & time w/ Funeral Director?</td>
+                                    <td>{{#if confirmedPlacementScheduleWithFuneralDirector}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>6. Entombment Only: Confirmed Body is Embalmed?</td>
+                                    <td>{{#if confirmedBodyIsEmbalmed}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>7. Confirmed Delivery Expectation of Purchase Orders?</td>
+                                    <td>{{#if confirmedExpectedMerchandiseDelivery}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>8. Confirm and validate burial permit?</td>
+                                    <td>{{#if isPermitted}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>9. Complete Interment Authorzation?</td>
+                                    <td>{{#if isIntermentAuthorizationCompleted}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>10. Paid in Full for AN Portion?</td>
+                                    <td>{{#if isPaidInFullForAN}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Interment Request Informaion</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1. Witness Lowering/Entombment</td>
+                                    <td>
+                                        {{#if isWitnessLoweringOrEntombment}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2. Witness Covering/Sealings</td>
+                                    <td>{{#if isWitnessCoveringOrSealings}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>3. Witness Filling</td>
+                                    <td>{{#if isWitnessFilling}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>4. Reopen Bottom</td>
+                                    <td>{{#if isReopenBottom}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>5. Burning Pot</td>
+                                    <td>{{#if isBurningPot}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>6. Mound of Dirt by Footend</td>
+                                    <td>{{#if isMoundOfDirtByFootend}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>7. Use of Tent</td>
+                                    <td>{{#if isUseOfTent}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>8. Place and Notify</td>
+                                    <td>{{#if isPlaceAndNotify}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                                <tr>
+                                    <td>9. Reopen Top</td>
+                                    <td>{{#if isReopenTop}}
+                                        <span class="success">Y</span>
+                                        {{^}}
+                                        <span class="danger">N</span>
+                                        {{/if}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="container-sample-card">
+                        <h4 class="title-sample-card">Staff Notes</h4>
+                        {{#each notesFromStaff}}
+                        <p>{{this}}</p>
+                        {{/each}}
+                    </div>
+                    <div class="container-sample-card">
+                        <h4 class="title-sample-card">Family Notes</h4>
+                        {{#each notesFromFamily}}
+                        <p>{{this}}</p>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+    </div>
+
+</body>
+
+</html>

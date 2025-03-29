@@ -1,0 +1,6 @@
+test
+coverage
+node_modules
+migrations/
+models/
+seeders/

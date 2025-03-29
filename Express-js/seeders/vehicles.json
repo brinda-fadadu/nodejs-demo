@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "2004 Cadillac Hearse",
+    "locationId": 2,
+    "type": "hearse"
+  },
+  {
+    "id": 2,
+    "name": "2007 Cadillac Hearse",
+    "locationId": 2,
+    "type": "hearse"
+  },
+  {
+    "id": 3,
+    "name": "2016 Cadillac Hearse",
+    "locationId": 2,
+    "type": "hearse"
+  },
+  {
+    "id": 4,
+    "name": "2017 Cadillac Hearse",
+    "locationId": 2,
+    "type": "hearse"
+  },
+  {
+    "id": 5,
+    "name": "2018 Cadillac Hearse",
+    "locationId": 2,
+    "type": "hearse"
+  },
+  {
+    "id": 6,
+    "name": "2005 Dodge Caravan",
+    "locationId": 2,
+    "type": "utilityCar"
+  },
+  {
+    "id": 7,
+    "name": "2012 Dodge Caravan",
+    "locationId": 2,
+    "type": "utilityCar"
+  },
+  {
+    "id": 8,
+    "name": "2013 Dodge Caravan",
+    "locationId": 2,
+    "type": "utilityCar"
+  },
+  {
+    "id": 9,
+    "name": "2014 Mini Hearse Caravan",
+    "locationId": 2,
+    "type": "hearse"
+  },
+  {
+    "id": 10,
+    "name": "2015 Ford Van",
+    "locationId": 2,
+    "type": "utilityCar"
+  },
+  {
+    "id": 11,
+    "name": "2002 Cadillac Limousin",
+    "locationId": 4,
+    "type": "utilityCar"
+  },
+  {
+    "id": 12,
+    "name": "2017 Cadillac Hearse",
+    "locationId": 4,
+    "type": "hearse"
+  },
+  {
+    "id": 13,
+    "name": "2008 Dodge Caravan",
+    "locationId": 4,
+    "type": "utilityCar"
+  },
+  {
+    "id": 14,
+    "name": "2017 Ford Cargo Van",
+    "locationId": 4,
+    "type": "utilityCar"
+  },
+  {
+    "id": 15,
+    "name": "2012 Cadillac Hearse",
+    "locationId": 6,
+    "type": "hearse"
+  },
+  {
+    "id": 16,
+    "name": "2008 Dodge Caravan",
+    "locationId": 6,
+    "type": "utilityCar"
+  }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Funeral Service"
+    },
+    {
+        "id": 2,
+        "name": "Graveside Service"
+    },
+    {
+        "id": 3,
+        "name": "Memorial Service"
+    },
+    {
+        "id": 4,
+        "name": "Reception Service"
+    },
+    {
+        "id": 5,
+        "name": "Visitation Service"
+    },
+    {
+        "id": 6,
+        "name": "Witness Cremation"
+    },
+    {
+        "id": 7,
+        "name": "Cremation Service"
+    },
+    {
+        "id": 8,
+        "name": "Disinterment Service"
+    }
+]

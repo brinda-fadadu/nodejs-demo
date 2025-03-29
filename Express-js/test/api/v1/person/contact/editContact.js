@@ -1,0 +1,258 @@
+try{
+    const {
+      chai,
+      server,
+      addTestUser,
+      genAuthToken,
+      getPersonCount,
+      getRelations
+    } = require('../../../../helper')
+    const {contactHelper, getOtherContactRoles} = require('../../../../schema/personContact')
+    const personSchema = require('../../../../schema/person')
+    const faker = require('faker')
+    const models = require('../../../../../models')
+    const createContact = require('../../../../../controllers/persons/contact/createContact')
+    let person, user, authToken, personData, personId, randomNumber, randomString, roleNotifierData, personCount, ch, createdContact, contactReqBody, relationIds
+    const baseUrl = '/api/v1/persons/'
+    console.log('Before create person')
+
+    async function createPerson (isBeneficiary) {
+      const personObj = await personSchema()
+      if (isBeneficiary) {
+        personObj.IsAlive = true
+      }
+      person = await models.Person.create(personObj)
+      personCount = await getPersonCount()
+      return {
+        person,
+        personCount
+      }
+    }
+    
+    describe('/.put Create Contact', function () {  
+      before(async () => {
+        try {
+          user = await addTestUser()
+          authToken = await genAuthToken(user)
+          relationIds = await getRelations()
+          ch = await contactHelper()
+          personData = await createPerson(false)
+          personId = personData.person.id
+          contactReqBody = ch.createContactPersonObj
+          contactReqBody.personId = personId
+          randomNumber = faker.random.number()
+          randomString = faker.random.word()
+          roleNotifierData = await models.Role.findOne({ where: { Type: 'Contact', Name: 'Notifier' } })
+          roleInformant = await models.Role.findOne({ where: { Type: 'Contact', Name: 'Informant' } })
+          rolePOA = await models.Role.findOne({ where: { Type: 'Contact', Name: 'Power of Attorney' } })
+          roleFA = await models.Role.findOne({ where: { Type: 'Contact', Name: 'Funeral Authoriser' } })
+          createdContact = await createContact(contactReqBody)
+          delete ch.createContactPersonObj.personId
+          return
+        } catch (err) {
+          console.log('Error:::::')
+          console.log(err)
+        }
+      })
+    
+      after(async () => {
+        try {
+          await models.Person.destroy({ truncate: true })
+          await models.ContactPerson.destroy({ truncate: true })
+        } catch (error) {
+          console.log('Error:::::')
+          console.log(error)
+        }
+      })
+    
+      it('should return error message if the token is not present', async function () {
+        const res = await chai.request(server)
+          .put(baseUrl + personId + '/contacts/' + createdContact.id)
+          .set("authorization", "")
+        res.should.have.status(401)
+        res.body.should.have.property('message').and.to.be.equal("Token not found");
+      })
+    
+      it('should return error message if a person id is passed but it is not present in database', async function () {    
+        const res = await chai.request(server)
+          .put(baseUrl + randomNumber + '/contacts/' + createdContact.id)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+    
+        res.should.have.status(404)
+        res.body.should.have.property('error').and.to.be.equal('Contact Not Found or deleted already')
+      })
+    
+      it('should return error message if a person id is passed and it is a string', async function () {
+        const res = await chai.request(server)
+          .put(baseUrl + randomString + '/contacts/' + createdContact.id)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+    
+        res.should.have.status(422)
+        res.body.should.have.property('error').and.to.be.equal('PersonId must be a integer')
+      })
+
+      it('should return error message if a contact id is passed but it is not present in database', async function () {    
+        const res = await chai.request(server)
+          .put(baseUrl + personId + '/contacts/' + randomNumber)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+    
+        res.should.have.status(404)
+        res.body.should.have.property('error').and.to.be.equal('Contact Not Found or deleted already')
+      })
+    
+      it('should return error message if a contact id is passed and it is a string', async function () {
+        const res = await chai.request(server)
+          .put(baseUrl + personId + '/contacts/' + randomString)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+    
+        res.should.have.status(422)
+        res.body.should.have.property('error').and.to.be.equal('ContactId must be a integer')
+      })
+    
+      it('should return error message if a firstName key is not passed', async function () {
+        delete ch.createContactPersonObj.firstName
+        const res = await chai.request(server)
+          .put(baseUrl + personId + '/contacts/' + createdContact.id)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+    
+        res.should.have.status(422)
+        res.body.should.have.property('error').and.to.be.equal('First name is mandatory and not allows numbers')
+      })
+
+      it('should return error message if a firstName key is passed as empty string', async function () {
+        ch.createContactPersonObj.firstName = ''
+        const res = await chai.request(server)
+          .put(baseUrl + personId + '/contacts/' + createdContact.id)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+    
+        res.should.have.status(422)
+        res.body.should.have.property('error').and.to.be.equal('First name is mandatory and not allows numbers')
+      })
+    
+      it('should return error message if relationId is passed which is not present in database', async function () {
+        ch.createContactPersonObj.firstName = faker.name.firstName()
+        ch.createContactPersonObj.relationId = randomNumber
+        const res = await chai.request(server)
+          .put(baseUrl + personId + '/contacts/'+ createdContact.id)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+    
+        res.should.have.status(422)
+        res.body.should.have.property('error').and.to.be.equal('RelationId is required / not valid')
+      })
+    
+      it('should return error message if caseRoleIds is passed which is not present in database', async function () {
+        ch.createContactPersonObj.relationId = ch.relationsIds['Brother']
+        ch.createContactPersonObj.caseRoleIds = [randomNumber]
+        const res = await chai.request(server)
+          .put(baseUrl + personId + '/contacts/' + createdContact.id)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+    
+        res.should.have.status(422)
+        res.body.should.have.property('error').and.to.be.equal('CaseRole is Invalid')
+      })
+    
+      it('should return error message if invalid contactType is passed', async function () {
+        ch.createContactPersonObj.caseRoleIds = [ch.caseRoles['Next of Kin']]
+        ch.createContactPersonObj.contactType = randomNumber   
+        const res = await chai.request(server)
+          .put(baseUrl + personId + '/contacts/' + createdContact.id)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)    
+        res.should.have.status(422)
+        res.body.should.have.property('error').and.to.be.equal('contactType must be one of [Family, CL Staff, Other]')
+      })
+    
+      it('should edit a contact and return success message if a valid person id and request body passed', async function () {
+        ch.createContactPersonObj.contactType = 1
+        const res = await chai.request(server)
+          .put(baseUrl + personId + '/contacts/' + createdContact.id)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+    
+        res.should.have.status(200)
+        res.body.should.have.property('message').and.to.be.equal('Contact has been updated successfully')
+      })
+
+      it('should return error message if beneficairy person contain more than 1 notifier', async function () {
+        ch.createContactPersonObj.caseRoleIds = [roleNotifierData.id]
+        const secondContact = await chai.request(server)
+          .post(baseUrl + personData.person.id + '/contacts')
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+        const res = await chai.request(server)
+          .put(baseUrl + personId + '/contacts/' + createdContact.id)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)    
+        res.should.have.status(404)
+        res.body.should.have.property('error').and.to.be.equal('There is one contact with Notifier role')
+      }) 
+    
+      it('should return error message if the person has more than 1 father', async function () {
+        ch.createContactPersonObj.caseRoleIds = [ch.caseRoles['Purchaser']]
+        ch.createContactPersonObj.relationId = relationIds['Father']
+        await chai.request(server)
+          .post(baseUrl + personData.person.id + '/contacts')
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+        const res = await chai.request(server)
+          .put(baseUrl + personId + '/contacts/' + createdContact.id)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)    
+        res.should.have.status(404)
+        res.body.should.have.property('error').and.to.be.equal('There is already one contact with Father relation')
+      })
+    
+      it('should return error message if the person has more than 1 Mother', async function () {
+        ch.createContactPersonObj.relationId = relationIds['Mother']
+        await chai.request(server)
+          .post(baseUrl + personData.person.id + '/contacts')
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+        const res = await chai.request(server)          
+          .put(baseUrl + personId + '/contacts/' + createdContact.id)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)    
+        res.should.have.status(404)
+        res.body.should.have.property('error').and.to.be.equal('There is already one contact with Mother relation')
+      })
+    
+      it('should return error message if the person has more than 1 spouse', async function () {
+        ch.createContactPersonObj.relationId = relationIds['Spouse']
+        await chai.request(server)
+          .post(baseUrl + personData.person.id + '/contacts')
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+        const res = await chai.request(server)          
+          .put(baseUrl + personId + '/contacts/' + createdContact.id)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)    
+        res.should.have.status(404)
+        res.body.should.have.property('error').and.to.be.equal('There is already one contact with Spouse relation')
+      })
+    
+      it('should return error message if we send family contact roles to others', async () => {
+        const otherContactRoles = await getOtherContactRoles(3)
+        ch.createContactPersonObj.caseRoleIds = otherContactRoles
+        const res = await chai.request(server)
+          .put(baseUrl + personId + '/contacts/' + createdContact.id)
+          .set("authorization", authToken)
+          .send(ch.createContactPersonObj)
+          res.should.have.status(422)      
+          res.body.should.have.property('error').and.to.be.equal('CaseRole is Invalid')
+    
+      })
+
+      
+    });
+    
+    } catch (err) {
+      console.log(err)
+    }

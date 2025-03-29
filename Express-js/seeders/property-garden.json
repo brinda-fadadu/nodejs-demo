@@ -1,0 +1,1224 @@
+[
+  {
+    "name": "ES-B",
+    "code": "ES-B",
+    "id": 1,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "ES-C",
+    "code": "ES-C",
+    "id": 2,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "ES-D",
+    "code": "ES-D",
+    "id": 3,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "ES-E",
+    "code": "ES-E",
+    "id": 4,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "ES-F",
+    "code": "ES-F",
+    "id": 5,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "ES-G",
+    "code": "ES-G",
+    "id": 6,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "ES-H",
+    "code": "ES-H",
+    "id": 7,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "ES-I",
+    "code": "ES-I",
+    "id": 8,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "ES-K",
+    "code": "ES-K",
+    "id": 9,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "ES-L",
+    "code": "ES-L",
+    "id": 10,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "ES-Lakeside Columbarium",
+    "code": "ES-LkSide",
+    "id": 11,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "ES-M",
+    "code": "ES-M",
+    "id": 12,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "ES-N",
+    "code": "ES-N",
+    "id": 13,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "ES-Old Columbarium",
+    "code": "ES-OLDCOL",
+    "id": 14,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "HS-Island 3 Granite Estate",
+    "code": "HS-ISLAND3",
+    "id": 15,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Lily (E-F2)",
+    "code": "HS-LILYROW",
+    "id": 16,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-SAGE NICHE WALL",
+    "code": "HS-SAGEWAL",
+    "id": 17,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-TBD Tree Program",
+    "code": "HS-TREE",
+    "id": 18,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Upper Lily Hedge Estate",
+    "code": "HS-UPLILHE",
+    "id": 19,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Upper Lily (A-C1)",
+    "code": "HS-UPLILY",
+    "id": 20,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Acanthus",
+    "code": "HSACANTHUS",
+    "id": 21,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Alder",
+    "code": "HSALDER",
+    "id": 22,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Aspen",
+    "code": "HSASPEN",
+    "id": 23,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Bay",
+    "code": "HSBAY",
+    "id": 24,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Beech",
+    "code": "HSBEECH",
+    "id": 25,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Building 1 Niches",
+    "code": "HSBUILD1NC",
+    "id": 26,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Building 2 Niches",
+    "code": "HSBUILD2NC",
+    "id": 27,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Building 3 Niches",
+    "code": "HSBUILD3NC",
+    "id": 28,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Building 4 Niches",
+    "code": "HSBUILD4NC",
+    "id": 29,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Building 1 Crypts",
+    "code": "HSBUILDIN1",
+    "id": 30,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Building 2 Crypts",
+    "code": "HSBUILDIN2",
+    "id": 31,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Building 3 Crypts",
+    "code": "HSBUILDIN3",
+    "id": 32,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Building 4 Crypts",
+    "code": "HSBUILDIN4",
+    "id": 33,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Camellia",
+    "code": "HSCAMELLIA",
+    "id": 34,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Cherry",
+    "code": "HSCHERRY",
+    "id": 35,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Chestnut",
+    "code": "HSCHESTNUT",
+    "id": 36,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Fountain Columbarium Niches",
+    "code": "HSCOLUMBNC",
+    "id": 37,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Fountain Columbarium Pavers",
+    "code": "HSCOLUMBPV",
+    "id": 38,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Fountain Memorial Wall",
+    "code": "HSFOUNTMEM",
+    "id": 39,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Hawthorne",
+    "code": "HSHAWTHOR",
+    "id": 40,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Iris",
+    "code": "HSIRIS",
+    "id": 41,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Jasmine",
+    "code": "HSJASMINE",
+    "id": 42,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Lilac",
+    "code": "HSLILAC",
+    "id": 43,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Lily Cremation Estates",
+    "code": "HSLILYCE",
+    "id": 44,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Lily Hedge Estates",
+    "code": "HSLILYGE",
+    "id": 45,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Lily Granite Estates",
+    "code": "HSLILYGNE",
+    "id": 46,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Lily (S-JJ)",
+    "code": "HSLILYROWS",
+    "id": 47,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Lotus",
+    "code": "HSLOTUS",
+    "id": 48,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Mausoleum Cremorials Lot 18-19",
+    "code": "HSMAE18-19",
+    "id": 49,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Mausoleum Cremorials Lot 20-25",
+    "code": "HSMAE20-25",
+    "id": 50,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Mausoleum Estates 1-29",
+    "code": "HSMAES1-29",
+    "id": 51,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Magnolia Mau B DDLC",
+    "code": "HSMAGBDDLC",
+    "id": 52,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Magnolia Maus Bldg B",
+    "code": "HSMAGMAU",
+    "id": 53,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Magnolia",
+    "code": "HSMAGNOLIA",
+    "id": 54,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Myrtle",
+    "code": "HSMYRTLE",
+    "id": 55,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Olive",
+    "code": "HSOLIVE",
+    "id": 56,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Orchid A-D Hedge Estate",
+    "code": "HSORCHIDAD",
+    "id": 57,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Orchid Family Estates",
+    "code": "HSORCHIDFE",
+    "id": 58,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Orchid",
+    "code": "HSORCHIDRO",
+    "id": 59,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Mausoleum Estates 26-30",
+    "code": "HSPEG26-30",
+    "id": 60,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Mausoleum Estates 31-34",
+    "code": "HSPEG31-34",
+    "id": 61,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Mausoleum Estates 35-38",
+    "code": "HSPEG35-38",
+    "id": 62,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Mausoleum Estates 39-41",
+    "code": "HSPEG39-41",
+    "id": 63,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Peony",
+    "code": "HSPEONY",
+    "id": 64,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Pine",
+    "code": "HSPINE",
+    "id": 65,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Ponderosa",
+    "code": "HSPONDERO",
+    "id": 66,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Poppy",
+    "code": "HSPOPPY",
+    "id": 67,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Primrose Family Estates",
+    "code": "HSPRIMROFE",
+    "id": 68,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Primrose Niche Wall",
+    "code": "HSPRIMRONW",
+    "id": 69,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Primrose 1",
+    "code": "HSPRIMROS1",
+    "id": 70,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Primrose 2",
+    "code": "HSPRIMROS2",
+    "id": 71,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Primrose 3",
+    "code": "HSPRIMROS3",
+    "id": 72,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Primrose 4",
+    "code": "HSPRIMROS4",
+    "id": 73,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Redwood",
+    "code": "HSREDWOOD",
+    "id": 74,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Red Lotus",
+    "code": "HSRLOTUS",
+    "id": 75,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Red Lotus Granite Estate",
+    "code": "HSRLOTUSGE",
+    "id": 76,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Red Lotus Hedge Estate",
+    "code": "HSRLOTUSHE",
+    "id": 77,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Rosemary",
+    "code": "HSROSEMARY",
+    "id": 78,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Sage",
+    "code": "HSSAGE",
+    "id": 79,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Sun Gardens",
+    "code": "HSSUNGARDE",
+    "id": 80,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Tamarack",
+    "code": "HSTAMARAC1",
+    "id": 81,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Tamarack Garden 2",
+    "code": "HSTAMARAC2",
+    "id": 82,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-White Magnolia",
+    "code": "HSWHITEMAG",
+    "id": 83,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-White Spruce",
+    "code": "HSWHITESPR",
+    "id": 84,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-Willow",
+    "code": "HSWILLOW",
+    "id": 85,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-White Lotus",
+    "code": "HSWLOTUS",
+    "id": 86,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HS-White Lotus Estate",
+    "code": "HSWLOTUSGE",
+    "id": 87,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "WS-ACACIA",
+    "code": "WS-ACACIA",
+    "id": 88,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Beech Island",
+    "code": "WS-BEECH",
+    "id": 89,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Birch",
+    "code": "WS-Birch",
+    "id": 90,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Cedar",
+    "code": "WS-Cedar",
+    "id": 91,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Cherry Island",
+    "code": "WS-CHERRY",
+    "id": 92,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Cistus Island",
+    "code": "WS-CISTUS",
+    "id": 93,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-CORAL",
+    "code": "WS-CORAL",
+    "id": 94,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS Haven",
+    "code": "WS-CYPHAVE",
+    "id": 95,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-CYPHAVN",
+    "code": "WS-CYPHAVN",
+    "id": 96,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS",
+    "code": "WS",
+    "id": 97,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-ELM",
+    "code": "WS-ELM",
+    "id": 98,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Eucalyptus Island",
+    "code": "WS-EUCALYP",
+    "id": 99,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-FIR",
+    "code": "WS-FIR",
+    "id": 100,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Garden of Light",
+    "code": "WS-GDN LIT",
+    "id": 101,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Garden of Meditation",
+    "code": "WS-GDN MED",
+    "id": 102,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Heritage Court",
+    "code": "WS-Hert CT",
+    "id": 103,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Heritage Court Row",
+    "code": "WS-Hert Ro",
+    "id": 104,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-HERTAG",
+    "code": "WS-HERTAG",
+    "id": 105,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-HOLLY",
+    "code": "WS-HOLLY",
+    "id": 106,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-IVY",
+    "code": "WS-IVY",
+    "id": 107,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Juniper Island",
+    "code": "WS-JUNIPER",
+    "id": 108,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-LAUREL",
+    "code": "WS-LAUREL",
+    "id": 109,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Lilac Island",
+    "code": "WS-LILAC",
+    "id": 110,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Lower Garden",
+    "code": "WS-LOW GDN",
+    "id": 111,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-LOW URN",
+    "code": "WS-LOW URN",
+    "id": 112,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Magnolia Island",
+    "code": "WS-MAGNOLI",
+    "id": 113,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-MAPLE",
+    "code": "WS-MAPLE",
+    "id": 114,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Section A Mausoleum",
+    "code": "WS-MAUS_A",
+    "id": 115,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Section B Mausoleum",
+    "code": "WS-Maus_B",
+    "id": 116,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Section C Mausoleum",
+    "code": "WS-Maus_C",
+    "id": 117,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Section D Mausoleum",
+    "code": "WS-Maus_D",
+    "id": 118,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Section E Mausoleum",
+    "code": "WS-Maus_E",
+    "id": 119,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Section F Mausoleum",
+    "code": "WS-Maus_F",
+    "id": 120,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Section G Mausoleum",
+    "code": "WS-Maus_G",
+    "id": 121,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-OAK",
+    "code": "WS-OAK",
+    "id": 122,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-PALM",
+    "code": "WS-PALM",
+    "id": 123,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-POPLAR",
+    "code": "WS-POPLAR",
+    "id": 124,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-ROSE",
+    "code": "WS-ROSE",
+    "id": 125,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Garden of Serenity",
+    "code": "WS-SERENIT",
+    "id": 126,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-SPRUCE",
+    "code": "WS-SPRUCE",
+    "id": 127,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Sun Garden",
+    "code": "WS-SUN",
+    "id": 128,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Sun Terrance",
+    "code": "WS-SUNTERR",
+    "id": 129,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-TBD Tree Program",
+    "code": "WS-TREE",
+    "id": 130,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-UNIT 1",
+    "code": "WS-UNIT 1",
+    "id": 131,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-UNIT 2",
+    "code": "WS-UNIT 2",
+    "id": 132,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-UNIT 3",
+    "code": "WS-UNIT 3",
+    "id": 133,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-UNIT 4",
+    "code": "WS-UNIT 4",
+    "id": 134,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-UNIT 5",
+    "code": "WS-UNIT 5",
+    "id": 135,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-UNIT 6",
+    "code": "WS-UNIT 6",
+    "id": 136,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-UNIT 7",
+    "code": "WS-UNIT 7",
+    "id": 137,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-UNIT 8",
+    "code": "WS-UNIT 8",
+    "id": 138,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-UNIT 9",
+    "code": "WS-UNIT9",
+    "id": 139,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Upper Garden",
+    "code": "WS-UPP GDN",
+    "id": 140,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "WS-Walnut Island",
+    "code": "WS-WALNUT",
+    "id": 141,
+    "propertyCampusId": 3
+  },
+  {
+    "name": "ES-TRIB",
+    "code": "ES-TRIB",
+    "id": 142,
+    "propertyCampusId": 1
+  },
+  {
+    "name": "HSLAVENDER",
+    "code": "HSLAVENDER",
+    "id": 143,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HSMAE17",
+    "code": "HSMAE17",
+    "id": 144,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "HSTULIP",
+    "code": "HSTULIP",
+    "id": 145,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "OM-ABBEY",
+    "code": "OM-ABBEY",
+    "id": 146,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-ABBEYN",
+    "code": "OM-ABBEYN",
+    "id": 147,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-BLOTUS",
+    "code": "OM-BLOTUS",
+    "id": 148,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-BLOTUSN",
+    "code": "OM-BLOTUSN",
+    "id": 149,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-COL",
+    "code": "OM-COL",
+    "id": 150,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-COSMOS",
+    "code": "OM-COSMOS",
+    "id": 151,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-ESCHSCH",
+    "code": "OM-ESCHSCH",
+    "id": 152,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-ETERNTY",
+    "code": "OM-ETERNTY",
+    "id": 153,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-FERN",
+    "code": "OM-FERN",
+    "id": 154,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-HOPE1",
+    "code": "OM-HOPE1",
+    "id": 155,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-HOPE2",
+    "code": "OM-HOPE2",
+    "id": 156,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-IRIS",
+    "code": "OM-IRIS",
+    "id": 157,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-LILIAC",
+    "code": "OM-LILIAC",
+    "id": 158,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-LINDEN",
+    "code": "OM-LINDEN",
+    "id": 159,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-LOTUS",
+    "code": "OM-LOTUS",
+    "id": 160,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-LOTUSN",
+    "code": "OM-LOTUSN",
+    "id": 161,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-MARKOUL",
+    "code": "OM-MARKOUL",
+    "id": 162,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-MASONIC",
+    "code": "OM-MASONIC",
+    "id": 163,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-MEM",
+    "code": "OM-MEM",
+    "id": 164,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-MEM_CYP",
+    "code": "OM-MEM_CYP",
+    "id": 165,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-MEM_NI",
+    "code": "OM-MEM_NI",
+    "id": 166,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-MEM_URN",
+    "code": "OM-MEM_URN",
+    "id": 167,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-MILITAY",
+    "code": "OM-MILITAY",
+    "id": 168,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-MYRTLE",
+    "code": "OM-MYRTLE",
+    "id": 169,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-NOVISIT",
+    "code": "OM-NOVISIT",
+    "id": 170,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-OLIVE",
+    "code": "OM-OLIVE",
+    "id": 171,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-ORCHID",
+    "code": "OM-ORCHID",
+    "id": 172,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-PRADISE",
+    "code": "OM-PRADISE",
+    "id": 173,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-PRIMROS",
+    "code": "OM-PRIMROS",
+    "id": 174,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-PSLM",
+    "code": "OM-PSLM",
+    "id": 175,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-PSLM2",
+    "code": "OM-PSLM2",
+    "id": 176,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-PSLM3",
+    "code": "OM-PSLM3",
+    "id": 177,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-PSLM3-2",
+    "code": "OM-PSLM3-2",
+    "id": 178,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-PSLM3-E",
+    "code": "OM-PSLM3-E",
+    "id": 179,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-REFLCN",
+    "code": "OM-REFLCN",
+    "id": 180,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-REFLEC",
+    "code": "OM-REFLEC",
+    "id": 181,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-REMB",
+    "code": "OM-REMB",
+    "id": 182,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-ROSE",
+    "code": "OM-ROSE",
+    "id": 183,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_A",
+    "code": "OM-SEC_A",
+    "id": 184,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_B",
+    "code": "OM-SEC_B",
+    "id": 185,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_C",
+    "code": "OM-SEC_C",
+    "id": 186,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_D",
+    "code": "OM-SEC_D",
+    "id": 187,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_E",
+    "code": "OM-SEC_E",
+    "id": 188,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_F",
+    "code": "OM-SEC_F",
+    "id": 189,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_G",
+    "code": "OM-SEC_G",
+    "id": 190,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_I",
+    "code": "OM-SEC_I",
+    "id": 191,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_J",
+    "code": "OM-SEC_J",
+    "id": 192,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_K",
+    "code": "OM-SEC_K",
+    "id": 193,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_L",
+    "code": "OM-SEC_L",
+    "id": 194,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_M",
+    "code": "OM-SEC_M",
+    "id": 195,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_N",
+    "code": "OM-SEC_N",
+    "id": 196,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-WHISPER",
+    "code": "OM-WHISPER",
+    "id": 197,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-WHISPEW",
+    "code": "OM-WHISPEW",
+    "id": 198,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-PACIFIC",
+    "code": "OM-PACIFIC",
+    "id": 199,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "OM-SEC_H",
+    "code": "OM-SEC_H",
+    "id": 200,
+    "propertyCampusId": 4
+  },
+  {
+    "name": "HS Reload",
+    "code": "HSRELOAD",
+    "id": 201,
+    "propertyCampusId": 2
+  },
+  {
+    "name": "OM Reload",
+    "code": "OM-RELOAD",
+    "id": 202,
+    "propertyCampusId": 4
+  },
+  {"name": "HSRTULIP",
+    "code": "HSRTULIP",
+    "id": 203,
+    "propertyCampusId": 2
+  },
+  {"name": "HSWALILY1",
+    "code": "HSWALILY1",
+    "id": 204,
+    "propertyCampusId": 2
+ }
+]

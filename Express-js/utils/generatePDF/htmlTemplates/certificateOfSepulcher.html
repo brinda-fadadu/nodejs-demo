@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Certificate of Sepulcher</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        body * {
+            box-sizing: border-box;
+            font-family: "Times New Roman", Times, serif;
+            color: #000;
+        }
+        body img {
+            max-width: 100%;
+        }
+        .container-certificate {
+            max-width: 1056px;
+            margin: 0 auto;
+            padding: 50px 10px;
+            position: relative;
+        }
+        .container-certificate .certificate-content-wrapper {
+           /* display: inline-block;*/
+            padding: 0 5px;
+            text-decoration: underline;
+            min-width: 785px;
+        }
+        .water-mark-wrapper img {
+            max-width: 400px;
+            position: absolute;
+            opacity: 0.2;
+            z-index: -1;
+            top: 42%;
+            left: 45%;
+            transform: translate(-42%, -45%);
+        }
+        .certificate-no {
+            font-size: 18.5px;
+            text-align: right;
+            font-style: italic;
+        }
+        .title {
+            font-weight: 400;
+            font-size: 32px;
+            text-transform: uppercase;
+            text-align: center;
+            margin: 0 0 20px;
+        }
+        .title em.of-prep {
+            font-size: 44px;
+            text-transform: lowercase;
+            padding: 0 10px 0 5px;
+        }
+        .title span {
+            font-family: "Monotype Corsiva";
+            font-size: 75px;
+            font-style: italic;
+        }
+        .certificate-content {
+            margin-bottom: 30px;
+        }
+        .certificate-content div {
+            font-size: 18.5px;
+            margin-bottom: 12px;
+            line-height: 19px;
+        }
+        .certificate-content div.name-info em {
+            font-size: 25px;
+        }
+        .certificate-content div.rights {
+            content: "";
+            clear: both;
+            display: table;
+            width: 100%;
+            margin-bottom: 0;
+        }
+        .certificate-content div.rights .left-content {
+            float: left;
+        }
+        .certificate-content div.rights .right-content {
+            float: right;
+        }
+        .certificate-content div span.highlight {
+            text-decoration: underline;
+        }
+        .certificate-content p {
+            font-size: 18.5px;
+            line-height: 22px;
+            margin: 0;
+        }
+        .certificate-footer {
+            content: "";
+            clear: both;
+            display: block;
+            border: 1px solid #000;
+            min-height: 265px;
+        }
+        .footer-content-wrapper {
+            text-align: center;
+            padding-top: 20px;
+            font-size: 18.5px;
+            line-height: 22px;
+            margin: 0;
+        }
+        .footer-content-wrapper p {
+            margin: 0;
+        }
+        .footer-left {
+            float: left;
+            padding: 20px 30px;
+            width: 390px;
+            border-right: 1px solid #000;
+        }
+        .footer-left img {
+            max-width: 215px; 
+        }
+        .footer-left .line {
+            border-top: 1px solid #000;
+            width: 100%;
+            display: block;
+        }
+        .footer-left .cfo {
+            font-size: 14px;
+        }
+        .footer-left .ceo {
+            margin-bottom: 20px;
+        }
+        .footer-left .date-contract {
+            font-size: 17px;
+        }
+        .footer-left .date-contract span {
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+        .logo-footer {
+            width: 280px;
+            display: inline-block;
+            padding: 20px 30px;
+        }
+        .image-stamp {
+            max-width: 34%;
+            float: right;
+            display: inline-block;
+            padding: 66px 30px;
+            border-left: 1px solid #000;
+        }
+        @media print {
+            @page {
+                margin: 0;
+                height: 816px;
+            }
+            .page-break-line {
+                page-break-after: auto !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container-certificate">
+        <div class="certificate-no">Certificate No: {{certificateNumber}} &nbsp; Contract No: {{contractNumber}}</div>
+        <h1 class="title"><span>C</span>ertificate <em class="of-prep">of</em> <span>S</span>epulcher</h1>
+        <div class="certificate-content">
+        <div class="name-info"><em>Issued To Owner:</em> <span class="highlight">{{ownerName}}</span></div>
+            <div class="name-info"><em>Date of Issuance:</em> <span class="highlight">{{certificateGeneratedOn}}</span></div>
+            <div class="name-info"><em>Property Location:</em> <span class="highlight">{{propertyName}}</span></div>
+            <div class="rights">
+                <div class="left-content"><div class="name-info"><em>Number of Interment Rights with Property:</em> <span class="highlight">{{rightsWithProperty}}</span></div></div>
+                <div class="right-content"><div class="name-info"><em>Additional Interment Rights Purchased:</em> <span class="highlight">{{rightsPurchased}}</span></div></div>
+            </div>
+            <p><em>Whereas the owner(s) of this certificate,</em><span class="certificate-content-wrapper">{{ownerName}}</span><em>,have purchased and paid the full consideration for the sole and exclusive right, subject to the
+                    existing or future lawful rules and regulations of the Association and all applicable provisions of
+                    the Contract and law, to inter, inurn, and/or entomb the remains of the allowed number of deceased persons,
+                    as specified in the Contract for the property described above. This certificate is not transferable.</em></p>
+            <p><em>Now, therefore, the undersigned officers of the Association do hereby certify, for and on behalf of
+                    the Association, the Owner has purchased and does possess the sole, exclusive and perpetual Right of
+                    Sepulcher in and to the above-described property of the cemetery, as such property has been laid
+                    out and exists on the date of this Certificate, together with all rights thereunto
+                    appertaining.</em></p>
+        </div>
+        <footer class="certificate-footer">
+            <div class="footer-left page-break-line">
+                <img src="{{raySign}}" alt="Raymond Signature">
+                <span class="line"></span>
+                <div class="cfo"><em>Raymond J. Sala, Chief Financial Officer</em></div>
+                <img src="{{bobSign}}" alt="Robert Signature">
+                <span class="line"></span>
+                <div class="ceo cfo"><em>Robert A. Gordon Jr., President, and CEO</em></div>
+            </div>
+            <div class="logo-footer"><img src="{{clLogo}}" alt="Celebrating Life" />
+            </div>
+             <div class="image-stamp"> <img src="{{stamp}}"
+                alt="Cemetery Association"  />
+            </div>
+        </footer>
+        {{#if downloadedTime}}
+        <div class="footer-content-wrapper">
+            <p><em>IF RE-ISSUED: “This is NOT an Original Certificate. This was reprinted by</em><span class="certificate-content-wrapper">{{downloadedBy}}</span><em>at<span class="certificate-content-wrapper">{{downloadedTime}}</span></em></p>Ï
+        </div>
+        {{/if}}
+    </div>
+</body>
+</html>

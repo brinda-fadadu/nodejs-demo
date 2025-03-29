@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "Super_Admin",
+    "group": "OnePortal_Super_User",
+    "description":"Super Admin"
+  },
+  {
+    "id": 2,
+    "name": "Accounting",
+    "group": "OnePortal_Accounting",
+    "description": "Accounting"
+  },
+  {
+    "id": 3,
+    "name": "Service_Account_Manager",
+    "group": "OnePortal_Service_Account_Mgr",
+    "description":"Service Account Manager"
+  },
+  {
+    "id": 4,
+    "name": "Funeral_Home_Manager",
+    "group": "OnePortal_Funeral_Home_Mgr",
+    "description":"Funeral Home Manager"
+  },
+  {
+    "id": 5,
+    "name": "Funeral_Home_Staff",
+    "group": "OnePortal_Funeral_Home_Staff",
+    "description":"Funeral Home Staff"
+  },
+  {
+    "id": 6,
+    "name": "VP_Of_Funeral_Home",
+    "group": "OnePortal_Funeral_Home_VP",
+    "description": "VP Of Funeral Home"
+  },
+  {
+    "id": 7,
+    "name": "Arrangers",
+    "group": "OnePortal_Arranger",
+    "description": "Arrangers"
+  },
+  {
+    "id": 8,
+    "name": "Sales_Managers",
+    "group": "OnePortal_Sales_Mgr",
+    "description": "Sales Managers"
+  },
+  {
+    "id": 9,
+    "name": "Sales_Admin",
+    "group": "OnePortal_Sales_Admin",
+    "description":"Sales Admin"
+  },
+  {
+    "id": 10,
+    "name": "Sales",
+    "group": "OnePortal_Sales_staff",
+    "description": "Sales"
+  },
+  {
+    "id": 11,
+    "name": "VP_Of_Sales",
+    "group": "OnePortal_Sales_VP",
+    "description": "VP Of Sales"
+  },
+  {
+    "id": 12,
+    "name": "Foreman",
+    "group": "OnePortal_Foreman",
+    "description": "Foreman"
+  },
+  {
+    "id": 13,
+    "name": "Maintenance_Staff",
+    "group": "OnePortal_Maintenance_Staff",
+    "description":  "Maintenance Staff"
+  },
+  {
+    "id": 14,
+    "name": "Crematory_Operator",
+    "group": "OnePortal_Crematory_Operator",
+    "description": "Crematory Operator"
+  },
+  {
+    "id": 15,
+    "name": "Maintenance_Admin",
+    "group": "OnePortal_Maintenance_Admin",
+    "description": "Maintenance Admin"
+  },
+  {
+    "id": 16,
+    "name": "CEO",
+    "group": "OnePortal_CEO",
+    "description": "CEO"
+  },
+  {
+    "id": 17,
+    "name": "Receptionist",
+    "group": "OnePortal_Receptionist",
+    "description": "Receptionist"
+  },
+  {
+    "id": 18,
+    "name": "Heritage_Foundation",
+    "group": "OnePortal_Heritage_Foundation",
+    "description": "Heritage Foundation"
+  },
+  {
+    "id": 19,
+    "name": "Purchaser",
+    "group": "OnePortal_Purchaser",
+    "description": "Purchaser"
+  },
+  {
+    "id": 20,
+    "name": "After_Care",
+    "group": "OnePortal_After_Care",
+    "description": "After Care"
+  },
+  {
+    "id": 21,
+    "name": "Superintendent",
+    "group": "OnePortal_Superintentdent",
+    "description": "Superintendent"
+  },
+  {
+    "id": 22,
+    "name": "Executive_Admin",
+    "group": "OnePortal_Executive_Admin",
+    "description": "Executive Admin"
+  },
+  {
+    "id": 23,
+    "name": "Funeral_Home_Admin",
+    "group": "OnePortal_Funeral_Home_Admin",
+    "description": "Funeral Home Admin"
+  },
+  {
+    "id": 24,
+    "name": "CFO",
+    "group": "OnePortal_CFO",
+    "description": "CFO"
+  },
+  {
+    "id": 25,
+    "name": "Support",
+    "group": "OnePortal_Support",
+    "description": "Support"
+  }
+] 

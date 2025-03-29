@@ -1,0 +1,907 @@
+[
+  {
+    "code": "CREEST",
+    "description": "Cremated Remains Estates",
+    "propertyTypeId": 1
+  },
+  {
+    "code": "CREMEST",
+    "description": "Cremation Estate",
+    "propertyTypeId": 1
+  },
+  {
+    "code": "CREMORIALS",
+    "description": "Cremorials",
+    "propertyTypeId": 2
+  },
+  {
+    "code": "CREREPRED",
+    "description": "Cremated Remains Pre-Developed",
+    "propertyTypeId": 1
+  },
+  {
+    "code": "CYPCREM",
+    "description": "Cremation Only",
+    "propertyTypeId": ""
+  },
+  {
+    "code": "ES-ANICHE",
+    "description": "Eastside Annex Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "ES-BGRAVE",
+    "description": "Eastside Baby/Infant Grave",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "ES-BTGRAVE",
+    "description": "Eastside Baby/Infant Tier Grav",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "ES-CMNICHE",
+    "description": "Eastside Community Niche",
+    "propertyTypeId": 4
+  },
+  {
+    "code": "ES-CNICHE",
+    "description": "Eastside Column Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "ES-ESTATE",
+    "description": "Eastside Estate",
+    "propertyTypeId": 5
+  },
+  {
+    "code": "ES-FSNICHE",
+    "description": "Eastside Family Standard Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "ES-GNICHE",
+    "description": "Eastside Ground niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "ES-GRAVE",
+    "description": "Eastside Grave",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "ES-PNICHE",
+    "description": "Eastside Panel Niches",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "ES-PRCRYPT",
+    "description": "Eastside Private Mau Crypt",
+    "propertyTypeId": 53
+  },
+  {
+    "code": "ES-PRNICHE",
+    "description": "Eastside Private Mau Niche",
+    "propertyTypeId": 53
+  },
+  {
+    "code": "ES-SGRAVE",
+    "description": "Eastside Section Grave",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "ES-SNICHE",
+    "description": "Eastside Standard Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "ES-SPNICHE",
+    "description": "Easte Section Panel Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "ES-TGRAVE",
+    "description": "Eastside Tier Grave",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "ES-TOMBRM",
+    "description": "Eastside Tomb Room",
+    "propertyTypeId": 8
+  },
+  {
+    "code": "G",
+    "description": "Land Pre-Developed",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "GRD-GEL-01",
+    "description": "Ground Estate-1 plot/1 space",
+    "propertyTypeId": 9
+  },
+  {
+    "code": "GRD-GEL-02",
+    "description": "Ground Estate-2 plots/2 spaces",
+    "propertyTypeId": 10
+  },
+  {
+    "code": "GRD-GEL-03",
+    "description": "Ground Estate-3 plots/4 spaces",
+    "propertyTypeId": 11
+  },
+  {
+    "code": "GRD-GEL-04",
+    "description": "Ground Estate-4 plots/6 spaces",
+    "propertyTypeId": 12
+  },
+  {
+    "code": "GRD-GEL-05",
+    "description": "Ground Estate-5 plots/8 spaces",
+    "propertyTypeId": 13
+  },
+  {
+    "code": "GRD-GEL-06",
+    "description": "Ground Estate-6 plots/10 space",
+    "propertyTypeId": 14
+  },
+  {
+    "code": "GRD-GEL-07",
+    "description": "Ground Estate-7 plots/12 space",
+    "propertyTypeId": 15
+  },
+  {
+    "code": "GRD-GEL-08",
+    "description": "Ground Estate-8 plots/14 space",
+    "propertyTypeId": 16
+  },
+  {
+    "code": "GRD-RG",
+    "description": "Ground Space - Row/Grave",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "GRD-UPR",
+    "description": "Ground Space",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "GRD-UPRC",
+    "description": "Companion Ground Space",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "GREST-01",
+    "description": "Granit Estate-1 plot/1 sp",
+    "propertyTypeId": 17
+  },
+  {
+    "code": "GREST-02",
+    "description": "Granit Estate-2 plot/2 sp",
+    "propertyTypeId": 18
+  },
+  {
+    "code": "GREST-03",
+    "description": "Granit Estate-3 plot/4 sp",
+    "propertyTypeId": 19
+  },
+  {
+    "code": "GREST-04",
+    "description": "Granit Estate-4 plot/6 sp",
+    "propertyTypeId": 20
+  },
+  {
+    "code": "GREST-05",
+    "description": "Granit Estate-5 plot/8 sp",
+    "propertyTypeId": 21
+  },
+  {
+    "code": "GREST-06",
+    "description": "Granit Estate-6 plot/10 sp",
+    "propertyTypeId": 22
+  },
+  {
+    "code": "GREST-07",
+    "description": "Granit Estate-7 plot/12 sp",
+    "propertyTypeId": 23
+  },
+  {
+    "code": "GREST-08",
+    "description": "Granit Estate-8 plot/14 sp",
+    "propertyTypeId": 24
+  },
+  {
+    "code": "GREST-10",
+    "description": "Granit Estate-10 plot/16 sp",
+    "propertyTypeId": 25
+  },
+  {
+    "code": "HEEST-01",
+    "description": "Hedge Estate-1 plot/1 sp",
+    "propertyTypeId": 9
+  },
+  {
+    "code": "HEEST-02",
+    "description": "Hedge Estate-2 Plot/2 sp",
+    "propertyTypeId": 10
+  },
+  {
+    "code": "HEEST-03",
+    "description": "Hedge Estate-3 Plot/4 sp",
+    "propertyTypeId": 11
+  },
+  {
+    "code": "HEEST-04",
+    "description": "Hedge Estate-4 Plot/6 sp",
+    "propertyTypeId": 12
+  },
+  {
+    "code": "HEEST-05",
+    "description": "Hedge Estate-5 Plot/8 sp",
+    "propertyTypeId": 13
+  },
+  {
+    "code": "HEEST-06",
+    "description": "Hedge Estate-6 Plot/10 sp",
+    "propertyTypeId": 14
+  },
+  {
+    "code": "HEEST-07",
+    "description": "Hedge Estate-7 Plot/12 sp",
+    "propertyTypeId": 15
+  },
+  {
+    "code": "HEEST-08",
+    "description": "Hedge Estate-8 Plot/14 sp",
+    "propertyTypeId": 16
+  },
+  {
+    "code": "HEEST-10",
+    "description": "Hedge Estate-10 plot/16 sp",
+    "propertyTypeId": 26
+  },
+  {
+    "code": "LC",
+    "description": "Lawn Crypt",
+    "propertyTypeId": 27
+  },
+  {
+    "code": "LCR",
+    "description": "Lawn Crypt Row - Hillside",
+    "propertyTypeId": 27
+  },
+  {
+    "code": "LCT-DD",
+    "description": "Lawn Crypt - Double Depth",
+    "propertyTypeId": 27
+  },
+  {
+    "code": "MAU-COU",
+    "description": "Mausoleum - Couch Crypt",
+    "propertyTypeId": 28
+  },
+  {
+    "code": "MAU-COU-W",
+    "description": "Mausoleum-Couch w/ Westminster",
+    "propertyTypeId": 29
+  },
+  {
+    "code": "MAU-D-SXS",
+    "description": "Mausoleum-Deluxe Side by Side",
+    "propertyTypeId": 30
+  },
+  {
+    "code": "MAU-QUD",
+    "description": "Mausoleum - Quad Crypt",
+    "propertyTypeId": 31
+  },
+  {
+    "code": "MAU-QUD-W",
+    "description": "Mausoleum-Quad w/Westminster",
+    "propertyTypeId": 32
+  },
+  {
+    "code": "MAU-SGL",
+    "description": "Mausoleum - Single Crypt",
+    "propertyTypeId": 7
+  },
+  {
+    "code": "MAU-SGL-W",
+    "description": "Mausoleum-Single w/Westministr",
+    "propertyTypeId": 29
+  },
+  {
+    "code": "MAU-SSO",
+    "description": "Mausoleum-Single w/Slide over",
+    "propertyTypeId": 30
+  },
+  {
+    "code": "MAU-SSO-W",
+    "description": "Mausoleum-Sgl slide ovr w/West",
+    "propertyTypeId": 33
+  },
+  {
+    "code": "MAU-TDM",
+    "description": "Mausoleum - Tandem Crypt",
+    "propertyTypeId": 34
+  },
+  {
+    "code": "MAU-TDM-W",
+    "description": "Mausoleum-Tandem w/ Westminstr",
+    "propertyTypeId": 35
+  },
+  {
+    "code": "MAU-TSO",
+    "description": "Mausoleum - Tandem w/Slide ovr",
+    "propertyTypeId": 31
+  },
+  {
+    "code": "MAU-TSO-W",
+    "description": "Mausoleum-Tandm w/Slide & West",
+    "propertyTypeId": 32
+  },
+  {
+    "code": "NIC-MAU-DB",
+    "description": "Niche - Mausoleum - Double Urn",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "NIC-MAU-ML",
+    "description": "Niche - Mausoleum - Multi Urns",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "NIC-MAU-SG",
+    "description": "Niche - Mausoleum - Single Urn",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "NIC-PAV-DB",
+    "description": "Niche - Paver - Double Urns",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "NIC-PAV-ML",
+    "description": "Niche - Paver - Multi Urns",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "NIC-PAV-SG",
+    "description": "Niche - Paver - Single Urn",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "NIC-WAL-DB",
+    "description": "Niche - Wall - Double Urns",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "NIC-WAL-ML",
+    "description": "Niche - Wall - Multiple Urns",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "NIC-WAL-SG",
+    "description": "S",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-BGRAVE",
+    "description": "Olivet Bany/Infant Grave",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "OM-BOULDER",
+    "description": "Olivet Boulder",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-CBOULDR",
+    "description": "Olivet Companion Boulder",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-CMNICHE",
+    "description": "Olivet Community NIche",
+    "propertyTypeId": 4
+  },
+  {
+    "code": "OM-CNICHE",
+    "description": "Olivet Column Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-CRNICHE",
+    "description": "Olivet Crypt Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-DBSLANT",
+    "description": "Olivet Double Slant",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-DDLC",
+    "description": "Olivet DD Lawn Crypt",
+    "propertyTypeId": 27
+  },
+  {
+    "code": "OM-ESTATE",
+    "description": "Olivet Estate",
+    "propertyTypeId": 5
+  },
+  {
+    "code": "OM-FPNICHE",
+    "description": "Olivet Family Panel Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-FSNICHE",
+    "description": "Olivet Family Standard Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-GNICHE",
+    "description": "Olivet Ground Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-GRAVE",
+    "description": "Olivet Grave",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "OM-GRNICHE",
+    "description": "Olivet Grave Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-HEEST01",
+    "description": "OM-Hedge Estate-1 plot/1 sp",
+    "propertyTypeId": 9
+  },
+  {
+    "code": "OM-HEEST02",
+    "description": "OM-Hedge Estate-2 Plot/2 sp",
+    "propertyTypeId": 10
+  },
+  {
+    "code": "OM-HEEST03",
+    "description": "OM-Hedge Estate-3 Plot/4 sp",
+    "propertyTypeId": 11
+  },
+  {
+    "code": "OM-HEEST04",
+    "description": "OM-Hedge Estate-4 Plot/6 sp",
+    "propertyTypeId": 12
+  },
+  {
+    "code": "OM-HEEST05",
+    "description": "OM-Hedge Estate-5 Plot/8 sp",
+    "propertyTypeId": 13
+  },
+  {
+    "code": "OM-HEEST06",
+    "description": "OM-Hedge Estate-6 Plot/10 sp",
+    "propertyTypeId": 14
+  },
+  {
+    "code": "OM-HEEST07",
+    "description": "OM-Hedge Estate-7 Plot/12 sp",
+    "propertyTypeId": 15
+  },
+  {
+    "code": "OM-HEEST08",
+    "description": "OM-Hedge Estate-8 Plot/14 sp",
+    "propertyTypeId": 16
+  },
+  {
+    "code": "OM-HEEST10",
+    "description": "OM-Hedge Estate-10 plot/16 sp",
+    "propertyTypeId": 26
+  },
+  {
+    "code": "OM-MAUC",
+    "description": "Olivet Couch Crypt",
+    "propertyTypeId": 28
+  },
+  {
+    "code": "OM-MAUCW",
+    "description": "Olivet Couch Crypt w/ West",
+    "propertyTypeId": 29
+  },
+  {
+    "code": "OM-MAUDC",
+    "description": "Olivet Deluxe Comp Crypt",
+    "propertyTypeId": 30
+  },
+  {
+    "code": "OM-MAUQ",
+    "description": "Olivet Quad Crypt",
+    "propertyTypeId": 31
+  },
+  {
+    "code": "OM-MAUQW",
+    "description": "Olivet Quad Crypt w/ West",
+    "propertyTypeId": 32
+  },
+  {
+    "code": "OM-MAUSI",
+    "description": "Olivet Single Crypt",
+    "propertyTypeId": 7
+  },
+  {
+    "code": "OM-MAUSIW",
+    "description": "Olivet Single Crypt w/ West",
+    "propertyTypeId": 29
+  },
+  {
+    "code": "OM-MAUTA",
+    "description": "Olivet Tandem Crypt",
+    "propertyTypeId": 7
+  },
+  {
+    "code": "OM-MAUTAW",
+    "description": "Olivet Tandem Crypt w/ West",
+    "propertyTypeId": 29
+  },
+  {
+    "code": "OM-PILLAR",
+    "description": "Olivet Pillar",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-PMNICHE",
+    "description": "Olivet Premium Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-PNICHE",
+    "description": "Olivet Panel Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-PSNICHE",
+    "description": "Olivet Panel Single Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-SARC",
+    "description": "Olivet Sarcophagus",
+    "propertyTypeId": 36
+  },
+  {
+    "code": "OM-SARCN",
+    "description": "Olivet Sarcophagus Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-SGRAVE",
+    "description": "Olivet Section Grave",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "OM-SINICHE",
+    "description": "Olivet Single Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-SLANT",
+    "description": "Olivet Slant",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-SNICHE",
+    "description": "Olivet Standard Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-TGRAVE",
+    "description": "Olivet Tier Grave",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "OM-TOMBRM",
+    "description": "Olivet Tomb Room",
+    "propertyTypeId": 8
+  },
+  {
+    "code": "SEEST-01",
+    "description": "Stone Estate-1 plot/1 sp",
+    "propertyTypeId": 37
+  },
+  {
+    "code": "SEEST-02",
+    "description": "Stone Estate-2 plot/2 sp",
+    "propertyTypeId": 38
+  },
+  {
+    "code": "SEEST-03",
+    "description": "Stone Estate-3 plot/4 sp",
+    "propertyTypeId": 39
+  },
+  {
+    "code": "SEEST-04",
+    "description": "Stone Estate-4 plot/6 sp",
+    "propertyTypeId": 40
+  },
+  {
+    "code": "SEEST-05",
+    "description": "Stone Estate-5 plot/8 sp",
+    "propertyTypeId": 41
+  },
+  {
+    "code": "SEEST-06",
+    "description": "Stone Estate-6 plot/10 sp",
+    "propertyTypeId": 42
+  },
+  {
+    "code": "SEEST-07",
+    "description": "Stone Estate-7 plot/12 sp",
+    "propertyTypeId": 43
+  },
+  {
+    "code": "SEEST-08",
+    "description": "Stone Estate-8 plot/14 sp",
+    "propertyTypeId": 44
+  },
+  {
+    "code": "SEEST-10",
+    "description": "Stone Estate-10 plot/16 sp",
+    "propertyTypeId": 45
+  },
+  {
+    "code": "WS-BGRAVE",
+    "description": "Wwstside Bany/Infant Grave",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "WS-CMNICHE",
+    "description": "Westside Community NIche",
+    "propertyTypeId": 4
+  },
+  {
+    "code": "WS-CNICHE",
+    "description": "Westside Column Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "WS-CRNICHE",
+    "description": "Westside Crypt Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "WS-DDLC",
+    "description": "Westside DD Lawn Crypt",
+    "propertyTypeId": 27
+  },
+  {
+    "code": "WS-ESTATE",
+    "description": "Westside Estate",
+    "propertyTypeId": 5
+  },
+  {
+    "code": "WS-FPNICHE",
+    "description": "Westside Family Panel Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "WS-FSNICHE",
+    "description": "Westside Family Standard Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "WS-GNICHE",
+    "description": "Westside Ground Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "WS-GRAVE",
+    "description": "Westside Grave",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "WS-GRNICHE",
+    "description": "Westside Grave Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "WS-MAUC",
+    "description": "Westside Couch Crypt",
+    "propertyTypeId": 28
+  },
+  {
+    "code": "WS-MAUCW",
+    "description": "Westside Couch Crypt w/ West",
+    "propertyTypeId": 29
+  },
+  {
+    "code": "WS-MAUDC",
+    "description": "Westside Deluxe Comp Crypt",
+    "propertyTypeId": 30
+  },
+  {
+    "code": "WS-MAUQ",
+    "description": "Westside Quad Crypt",
+    "propertyTypeId": 31
+  },
+  {
+    "code": "WS-MAUQW",
+    "description": "Westside Quad Crypt w/ West",
+    "propertyTypeId": 32
+  },
+  {
+    "code": "WS-MAUSI",
+    "description": "Westside Single Crypt",
+    "propertyTypeId": 7
+  },
+  {
+    "code": "WS-MAUSIW",
+    "description": "Westside Single Crypt w/ West",
+    "propertyTypeId": 29
+  },
+  {
+    "code": "WS-MAUTA",
+    "description": "Westside Tandem Crypt",
+    "propertyTypeId": 7
+  },
+  {
+    "code": "WS-MAUTAW",
+    "description": "Westide Tandem Crypt w/ West",
+    "propertyTypeId": 29
+  },
+  {
+    "code": "WS-PMNICHE",
+    "description": "Westside Premium Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "WS-PNICHE",
+    "description": "Westside Panel Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "WS-SARC",
+    "description": "Westide Sarcophagus",
+    "propertyTypeId": 36
+  },
+  {
+    "code": "WS-SARCN",
+    "description": "Westside Sarcophagus Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "WS-SGRAVE",
+    "description": "Westside Section Grave",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "WS-SINICHE",
+    "description": "Westside Single Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "WS-SNICHE",
+    "description": "Westside Standard Niche",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "WS-TGRAVE",
+    "description": "Westside Tier Grave",
+    "propertyTypeId": 6
+  },
+  {
+    "code": "WS-TOMBRM",
+    "description": "Westside Tomb Room",
+    "propertyTypeId": 8
+  },
+  {
+    "code": "OM-CMCOLFM",
+    "description": "Olivet Family Columbarium AGM",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-CMCOL",
+    "description": "Olivet Cremation Columbarium",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-COREDPI",
+    "description": "Olivet Corded Marker Prem Ind",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-GRPSTBK",
+    "description": "Olivet Granite Pedestal OpenBK",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-POSTC",
+    "description": "Olivet Companion Post Marker",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-CMBENDB",
+    "description": "Olivet Cremation Bench DB",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-GRTBLPI",
+    "description": "Olivet granite Tablet Prem Ind",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-PPAGODA",
+    "description": "Olivet Prem Pagoda",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-POSTI",
+    "description": "Olivet Individual Post Marker",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-COREDPC",
+    "description": "Olivet Corded Marker Prem Com",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-FMCOL4",
+    "description": "Olivet Family Col - 4 Niches",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-FMCOL2",
+    "description": "Olivet Family Col - 2 Niches",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-GRTBL",
+    "description": "Olivet Granite Tablet",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-GRTBLPC",
+    "description": "Olivet Granite Tablet Prem Com",
+    "propertyTypeId": 3
+  },
+  {
+    "code": "OM-RELOAD",
+    "description": "Reload",
+    "propertyTypeId": 49
+  },
+  {
+    "code": "HS-RELOAD",
+    "description": "Reload",
+    "propertyTypeId": 49
+  },
+  {
+    "code": "WS-PVTMAU",
+    "description": "Westside Private Mau",
+    "propertyTypeId": 53
+  },
+  {
+    "code": "ES-MAUDC",
+    "description": "Eastside Deluxe Comp Crypt",
+    "propertyTypeId": 30
+  },
+  {
+    "code": "ES-ADNICHE",
+    "description": "Eastside Niche Added Rights",
+    "propertyTypeId": 54
+  },
+  {
+    "code": "HS-ADNICHE",
+    "description": "Hillside Niche Added Rights",
+    "propertyTypeId": 54
+  },
+  {
+    "code": "OM-ADNICHE",
+    "description": "Olivet Niche Added Rights",
+    "propertyTypeId": 54
+  },
+  {
+    "code": "WS-ADNICHE",
+    "description": "Westside Niche Added Rights",
+    "propertyTypeId": 54
+  }
+]

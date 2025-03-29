@@ -1,0 +1,13 @@
+version: '3.1'
+
+services:
+  elastic-search:
+    image: elasticsearch:7.4.1
+    ports:
+      - 9200:9200
+    environment:
+      discovery.type: single-node
+  redis:
+    image: redis:latest
+    ports:
+      - 6379:6379

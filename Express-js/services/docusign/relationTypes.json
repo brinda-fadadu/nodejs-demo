@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Aunt",
+        "relationType": "Other"
+    },
+    {
+        "name": "Partner",
+        "relationType": "Other"
+    },
+    {
+        "name": "DPOAHC",
+        "relationType": "DPOAHC"
+    },
+    {
+        "name": "Sister",
+        "relationType": "Adult Sibling"
+    },
+    {
+        "name": "Sister-In-Law",
+        "relationType": "Other"
+    },
+    {
+        "name": "Son",
+        "relationType": "Adult Children"
+    },
+    {
+        "name": "Son-In-Law",
+        "relationType": "Other"
+    },
+    {
+        "name": "Spouse",
+        "relationType": "Spouse"
+    },
+    {
+        "name": "Step-Brother",
+        "relationType": "Other"
+    },
+    {
+        "name": "Step-Daughter",
+        "relationType": "Other"
+    },
+    {
+        "name": "Step-Father",
+        "relationType": "Other"
+    },
+    {
+        "name": "Step-Mother",
+        "relationType": "Other"
+    },
+    {
+        "name": "Step-Sister",
+        "relationType": "Other"
+    },
+    {
+        "name": "Step-Son",
+        "relationType": "Other"
+    },
+    {
+        "name": "Uncle",
+        "relationType": "Other"
+    },
+    {
+        "name": "Doctor",
+        "relationType": "Other"
+    },
+    {
+        "name": "Nurse",
+        "relationType": "Other"
+    },
+    {
+        "name": "Coroner",
+        "relationType": "Other"
+    },
+    {
+        "name": "SRDP",
+        "relationType": "Spouse"
+    },
+    {
+        "name": "Other",
+        "relationType": "Other"
+    },
+    {
+        "name": "Niece",
+        "relationType": "Other"
+    },
+    {
+        "name": "Conservator",
+        "relationType": "Other"
+    },
+    {
+        "name": "Nephew",
+        "relationType": "Other"
+    },
+    {
+        "name": "Mother",
+        "relationType": "Parent"
+    },
+    {
+        "name": "Brother",
+        "relationType": "Adult Sibling"
+    },
+    {
+        "name": "Brother-In-Law",
+        "relationType": "Other"
+    },
+    {
+        "name": "Companion",
+        "relationType": "Other"
+    },
+    {
+        "name": "Cousin",
+        "relationType": "Other"
+    },
+    {
+        "name": "Daughter",
+        "relationType": "Adult Children"
+    },
+    {
+        "name": "Daughter-In-Law",
+        "relationType": "Other"
+    },
+    {
+        "name": "Father",
+        "relationType": "Parent"
+    },
+    {
+        "name": "Father-In-Law",
+        "relationType": "Other"
+    },
+    {
+        "name": "Fiance",
+        "relationType": "Other"
+    },
+    {
+        "name": "Fiancee",
+        "relationType": "Other"
+    },
+    {
+        "name": "Friend",
+        "relationType": "Other"
+    },
+    {
+        "name": "Granddaughter",
+        "relationType": "Other"
+    },
+    {
+        "name": "Grandfather",
+        "relationType": "Other"
+    },
+    {
+        "name": "Grandmother",
+        "relationType": "Other"
+    },
+    {
+        "name": "Grandson",
+        "relationType": "Other"
+    },
+    {
+        "name": "Great Granddaughter",
+        "relationType": "Other"
+    },
+    {
+        "name": "Great Grandfather",
+        "relationType": "Other"
+    },
+    {
+        "name": "Great Grandmother",
+        "relationType": "Other"
+    },
+    {
+        "name": "Great Grandson",
+        "relationType": "Other"
+    },
+    {
+        "name": "Mother-In-Law",
+        "relationType": "Other"
+    },
+    {
+        "name": "Self",
+        "relationType": "Self"
+    }
+]

@@ -1,0 +1,1217 @@
+openapi: 3.0.0
+info:
+  description: Refactored API
+  version: "1.0.0"
+  title: Project
+paths:
+  /call:
+    post:
+      summary: creates a call
+      operationId: createCall
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      security:
+        - api_key: []
+      requestBody:
+        $ref: '#/components/requestBodies/CreateCall'
+  
+  /call/{callId}:
+    put:
+      summary: update a call
+      operationId: updateCall
+      parameters:
+        - name: callId
+          in: path
+          description: call Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: sucess
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      security:
+        - api_key: []
+      requestBody:
+        $ref: '#/components/requestBodies/EditCall'
+  
+  "/call/{callId}/verify-person":
+    put:
+      summary: verify a person
+      operationId: verifyPerson
+      security:
+        - api_key: []
+      parameters:
+        - name: callId
+          in: path
+          description: call Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: sucess
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      requestBody:
+        $ref: '#/components/requestBodies/VerifyPerson'
+  
+  "/person/{personId}/primary-details":
+    put:
+      summary: update primary person details
+      operationId: updatePrimaryPersonDetails
+      description: Use this for updating primary / residential address
+      security:
+        - api_key: []
+      parameters:
+        - name: personId
+          in: path
+          description: person Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: sucess
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      requestBody:
+        $ref: '#/components/requestBodies/PrimaryDetails'
+        
+  /person/{personId}/contact:
+    post:
+      summary: update contact details
+      operationId: updateContactDetails
+      description: Use this for updating primary / residential address
+      security:
+        - api_key: []
+      parameters:
+        - name: personId
+          in: path
+          description: person Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: sucess
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      requestBody:
+        $ref: '#/components/requestBodies/PersonContact'
+
+    /person/{personId}/contact/{contactId}:
+      put:
+        summary: update contact details
+        operationId: updateContactDetails
+        description: Use this for updating primary / residential address
+        security:
+          - api_key: []
+        parameters:
+          - name: personId
+            in: path
+            description: person Id
+            required: true
+            schema:
+              type: integer
+          - name: contactId
+            in: path
+            description: person Id
+            required: true
+            schema:
+              type: integer
+        responses:
+          '200':
+            description: sucess
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/responses/Success'
+        requestBody:
+          $ref: '#/components/requestBodies/PersonContact'
+  
+  "/person/{personId}/death-details":
+    post:
+        summary: update person death details
+        operationId: updatePersonDeathDetails
+        security:
+          - api_key: []
+        parameters:
+          - name: personId
+            in: path
+            description: person Id
+            required: true
+            schema:
+              type: integer
+        responses:
+          '200':
+            description: sucess
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/responses/Success'
+        requestBody:
+          $ref: '#/components/requestBodies/DeathDetails'
+
+  "/person/{personId}/death-details/{deathDetailsId}":
+    put:
+        summary: update person death details
+        operationId: updatePersonDeathDetails
+        security:
+          - api_key: []
+        parameters:
+          - name: personId
+            in: path
+            description: person Id
+            required: true
+            schema:
+              type: integer
+        responses:
+          '200':
+            description: sucess
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/responses/Success'
+        requestBody:
+          $ref: '#/components/requestBodies/DeathDetails'
+          
+  "/person/{personId}/remains-transfer":
+    put:
+      summary: update person remains transfer details
+      operationId: updatePersonRemainsTransferDetails
+      security:
+        - api_key: []
+      parameters:
+        - name: personId
+          in: path
+          description: person Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: sucess
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      requestBody:
+        $ref: '#/components/requestBodies/RemainsTransfer'
+  
+  "/person/{personId}/remains-info":
+    put:
+      summary: update person remains details
+      operationId: updatePersonRemainsDetails
+      security:
+        - api_key: []
+      parameters:
+        - name: personId
+          in: path
+          description: person Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: sucess
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      requestBody:
+        $ref: '#/components/requestBodies/RemainsInfo'
+  
+  /person/{personId}/education:
+    put:
+      summary: update person education details
+      operationId: updatePersonEducationDetails
+      security:
+        - api_key: []
+      parameters:
+        - name: personId
+          in: path
+          description: person Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      requestBody:
+        $ref: '#/components/requestBodies/EducationInfo'
+  
+  "/person/{personId}/veteran-info/":
+      post:
+      summary: update person veteran details
+      operationId: updatePersonVeteranDetails
+      security:
+        - api_key: []
+      parameters:
+        - name: personId
+          in: path
+          description: person Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      requestBody:
+        $ref: '#/components/requestBodies/VeteranInfo'
+
+  "/person/{personId}/veteran-info/{veteranId}":
+    put:
+      summary: update person veteran details
+      operationId: updatePersonVeteranDetails
+      security:
+        - api_key: []
+      parameters:
+        - name: personId
+          in: path
+          description: person Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      requestBody:
+        $ref: '#/components/requestBodies/VeteranInfo'
+
+  /person/{personId}/certifier:
+    post:
+      summary: update person certifier details
+      operationId: updatePersonCertifierDetails
+      security:
+        - api_key: []
+      parameters:
+        - name: personId
+          in: path
+          description: person Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      requestBody:
+        $ref: '#/components/requestBodies/CertifierInfo'
+
+  /person/{personId}/certifier/{certifierId}:
+    put:
+      summary: update person certifier details
+      operationId: updatePersonCertifierDetails
+      security:
+        - api_key: []
+      parameters:
+        - name: personId
+          in: path
+          description: person Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      requestBody:
+        $ref: '#/components/requestBodies/CertifierInfo'
+  
+    /person/{personId}/ethnicity:
+    post:
+      summary: update person ethnicity details
+      operationId: updatePersonEthnicityDetails
+      security:
+        - api_key: []
+      parameters:
+        - name: personId
+          in: path
+          description: person Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      requestBody:
+        $ref: '#/components/requestBodies/EthnicityDetails'
+
+  /person/{personId}/ethnicity/{ethnicityId}:
+    post:
+      summary: update person ethnicity details
+      operationId: updatePersonEthnicityDetails
+      security:
+        - api_key: []
+      parameters:
+        - name: personId
+          in: path
+          description: person Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      requestBody:
+        $ref: '#/components/requestBodies/EthnicityDetails'
+  
+  /person/{personId}/arrangement:
+    post:
+      summary: create an arrangement
+      operationId: createPersonArrangement
+      security:
+        - api_key: []
+      parameters:
+        - name: personId
+          in: path
+          description: person Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      requestBody:
+        $ref: '#/components/requestBodies/Agreement'
+  /person/{personId}/agreement:
+    post:
+      summary: create an agreement
+      operationId: createAgreement
+      security:
+        - api_key: []
+      parameters:
+        - name: personId
+          in: path
+          description: person Id
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+  
+  agreement/{agreementId}/item/{action}:
+    post:
+      summary: add / remove a item to agreement
+      operationId: agreementItem
+      security:
+        - api_key: []
+      parameters:
+        - name: agreementId
+          in: path
+          description: agreement Id
+          required: true
+          schema:
+            type: integer
+        - name: action
+          in: path
+          description: action (add / remove)
+          required: true
+          schema:
+            type: string
+      requestBody:
+        $ref: '#/components/requestBodies/Item'
+          
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+  
+  /place:
+    post:
+      summary: creates a place
+      operationId: createPlace
+      responses:
+        '200':
+          description: success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/responses/Success'
+      security:
+        - api_key: []
+      requestBody:
+        $ref: '#/components/requestBodies/Place'
+
+  # Items and Packages
+  /items/categories:
+    get:
+      tags:
+      - "Items"
+      summary: Get item categories
+      parameters:
+        - in: query
+          name: itemTypeId
+          schema:
+            type: integer
+          description: Item type Id to filter the categories based on Item Type
+        - in: query
+          name: itemIndustryId
+          schema:
+            type: integer
+          description: Item Industry Id to filter the categories based on Item Type
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  itemCategories:
+                    type: array
+                    items: 
+                      $ref: '#/components/schemas/Category'
+  
+  /items/categories/attributes:
+    get:
+      tags:
+      - "Items"
+      summary: Get item category attributes
+      parameters:
+        - in: query
+          name: ItemCategoryId
+          schema:
+            type: integer
+          description: Item Category Id to filter the attributes based on Category Type
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  attributes:
+                    type: array
+                    items: 
+                      $ref: '#/components/schemas/Attribute'
+
+  /items:
+    get:
+      tags:
+      - "Items"
+      summary: Get items
+      parameters:
+        - in: query
+          name: ItemCategoryId
+          schema:
+            type: integer
+          description: Item Category Id to filter the attributes based on Category Type
+
+  /packages:
+    get:
+      tags:
+      - "Packages"
+      summary:
+        - in: query
+          name: locationId
+          required: true
+          schema:
+            type: integer
+          description: Filter packages based on location Id
+        - in: query
+          name: packageCategoryId
+          schema:
+            type: integer
+          description: Filter packages based on package category
+        - in: query
+          name: offset
+          schema:
+            type: integer
+          description: The number of items to skip before starting to collect the result set
+        - in: query
+          name: limit
+          schema:
+            type: integer
+          description: The numbers of items to return
+        - in: query
+          name: searchTerm
+          schemaL:
+            type: string
+          description: Filter packages based on search term which searches based on package name or code
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Packages'
+
+  /packages/items:
+    get:
+      tags:
+      - "Packages"
+      summary: Get Package Items
+      parameters:
+        - in: query
+          name: packageId
+          required: true
+          schema:
+            type: integer
+          description: Filter package items based on package Id
+        - in: query
+          name: offset
+          schema:
+            type: integer
+          description: The number of items to skip before starting to collect the result set
+        - in: query
+          name: limit
+          schema:
+            type: integer
+          description: The numbers of items to return
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PackageCategories'
+    
+  /packages/categories: 
+      get:
+        tags:
+        - "Packages"
+        summary: Get all Package Categories
+        responses:
+          '200':
+            description: Successful operation
+            content:
+              application/json:
+                schema:
+                  $ref: '#/components/schemas/PackageCategories'
+          
+
+components:
+  schemas:
+    #Items and Packages
+    Attribute:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        attributeValues:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: integer
+              name:
+                type: string
+      
+
+    Packages:
+      type: object
+      properties:
+        total:
+          type: integer
+        packageItems:
+          type: array
+          items:
+            $ref: '#/components/schemas/Package'
+    
+    Package:
+      type: object
+      properties:
+        id:
+          type: integer
+        code:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        price:
+          type: integer
+        isActive:
+          type: bool
+        packageCategoryId:
+          type: integer
+        createdAt:
+          type: string
+        updatedAt:
+          type: string
+        locationId:
+          type: integer
+        isTaxable:
+          type: bool
+
+    PackageItems:
+      type: object
+      properties:
+        total:
+          type: integer
+        packageItems:
+          type: array
+          items:
+            $ref: '#/components/schemas/Item'
+
+    Item:
+      type: object
+      properties:
+        packageId:
+          type: integer
+        locationItemId:
+          type: integer
+        quantity:
+          type: integer
+        price:
+          type: integer
+        code:
+          type: string
+        name:
+          type: string
+
+    PackageCategories:
+      type: object
+      properties:
+        packageCategories:
+          type: array
+          items:
+            $ref: '#/components/schemas/Category'
+
+    Category:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        code:
+          type: integer
+
+    # Call
+    Caller:
+      allOf:
+        - $ref: '#/components/schemas/Person'
+        - type: object
+          properties:
+            addressPlace: 
+              $ref: '#/components/schemas/Place'
+    CallerRelation:
+      type: object
+      properties:
+        name: 
+          type: string
+        id: 
+          type: integer
+    Place:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: The id of the place which will be created / looked up
+        address:
+          $ref: '#/components/schemas/Address'
+        organization:
+          $ref: '#/components/schemas/Organization'
+    Person:
+      type: object
+      properties:
+        firstName: 
+          type: string
+        lastName:
+          type: string
+        aka:
+          type: string
+    Organization:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        orgainzationTypeId:
+          type: integer
+    Address:
+      type: object
+      properties:
+        id:
+          type: integer
+        line1:
+          type: string
+        line2:
+          type: string
+        country:
+          type: string
+        state:
+          type: string
+        county:
+          type: string
+        city:
+          type: string
+        zipcode:
+          type: string
+    ANCallReason: 
+      type: object
+      properties:
+        isReadyForPickup: 
+          type: boolean
+        informant:
+          $ref: '#/components/schemas/Person'
+        isCallerNok: 
+          type: boolean
+        funeralHomeChoice:
+          type: string
+        cemeteryHomeChoice:
+          type: string
+        haveFuneralPN:
+          type: boolean
+        haveCemeteryPN:
+          type: boolean
+        requiredService:
+          type: string
+        arrangerEmail: 
+          type: string
+        callerDecedentRelation:
+          $ref: '#/components/schemas/CallerRelation'
+        informantDecedentRelation:
+          $ref: '#/components/schemas/CallerRelation'
+        isInformantSameAsCaller:
+                  type: boolean
+        decedent:
+          allOf:
+            - $ref: '#/components/schemas/Person'
+            - type: object
+              properties:
+                deathDetails:
+                  type: object
+                  properties:
+                    lor:
+                      $ref: '#/components/schemas/Place'
+                    isLORSameAsCallerAddress:
+                      type: boolean
+                    dateOfDeath:
+                      type: integer
+                dateOfBirth:
+                  type: integer
+    PNCallReason:
+      type: object
+      properties:
+        isBeneficiarySameAsCaller:
+          type: boolean
+        callerBeneficiaryRelation: 
+          $ref: '#/components/schemas/CallerRelation'
+        needFuneralService:
+          type: boolean
+        needCemeteryService:
+          type: boolean
+        isExistingPreneed:
+          type: boolean
+        funeralContractNumber:
+          type: string
+        cemeteryContractNumber:
+          type: string
+        beneficiary:
+          allOf:
+            - $ref: '#/components/schemas/Person'
+            - type: object
+                
+    MaintenanceRequestCallReason:
+      type: object
+      properties:
+        serviceLocation: 
+          type: string
+        graveMarkerLocation: 
+          type: string
+        cause: 
+          type: array
+          items:
+            type: integer
+    GenealogySearchCallReason:
+      type: object
+      properties:
+        dateOfDeath:
+          type: integer
+        isCallerNok:
+          type: boolean
+        callerDecedentRelation:
+          $ref: '#/components/schemas/CallerRelation'
+        decedent:
+          allOf:
+            - $ref: '#/components/schemas/Person'
+            - type: object
+                
+    OtherCallReason:
+      type: object
+      properties:
+        isFollowUpRequired:
+          type: boolean
+        email: 
+          type: string
+        followUpTypes:
+          type: array
+          items:
+            type: integer
+    
+    CreateCall:
+      type: object
+      properties:
+        type:
+          type: integer
+        status:
+          type: integer
+        receivedLocationId:
+          type: integer
+        assignedToId:
+          type: integer
+        languageId:
+          type: integer
+        appointmentDate:
+          type: integer
+        caller:
+          $ref: '#/components/schemas/Caller'
+        notes:
+          type: array
+          items:
+            type: object
+            properties:
+              level:
+                type: string
+              content:
+                type: string
+        reasonId:
+          type: integer
+        reason:
+          oneOf:
+            - type: array
+              items:
+                $ref: '#/components/schemas/ANCallReason'
+            - type: array
+              items:
+                $ref: '#/components/schemas/PNCallReason'
+            - $ref: '#/components/schemas/MaintenanceRequestCallReason'
+            - $ref: '#/components/schemas/GenealogySearchCallReason'
+            - $ref: '#/components/schemas/OtherCallReason'
+    
+    # Verification
+    VerifiedPerson:
+      allOf:
+        - $ref: '#/components/schemas/Caller'
+        - type: object
+          properties:
+            ssn: 
+              type: string
+            yearsAtResidentialAddress:
+              type: integer
+    
+    # Case Information
+    Ethnicity:
+      type: object
+      properties:
+        isHispanic:
+          type: boolean
+        hispanicId:
+          type: boolean
+        ethnicityOneId:
+          type: integer
+        ethnicityTwoId:
+          type: integer
+        ethnicityThreeId:
+          type: integer
+        raceOneId:
+          type: integer
+        raceTwoId:
+          type: integer
+        raceThreeId:
+          type: integer
+    DeathDetails:
+      type: object
+      properties:
+        dateOfDeath: 
+          type: integer
+        placeOfDeath:
+          $ref: '#/components/schemas/Place'
+        hospitalDeathStatus:
+          type: string
+        lorSameAsPlaceOfDeath:
+          type: boolean
+        lor:
+          $ref: '#/components/schemas/Place'
+    RemainsTransfer:
+      type: object
+      properties:
+        transferType: 
+          type: integer
+        neededByDate:
+          type: integer
+        isTransferReady: 
+          type: boolean
+        transferDateTime:
+          type: integer
+        isTransferComplete:
+          type: boolean
+        tranferFromLocationId:
+          type: integer
+        transferFromPlaceId:
+          type: integer
+        tranferToLocationId:
+          type: integer
+        transferToPlaceId:
+          type: integer
+        primaryDriverId:
+          type: integer
+        secondaryDriverId:
+          type: integer
+    RemainsInfo:
+      type: object
+      properties:
+        isEmbalmingApproved:
+          type: boolean
+        isCremationApproved:
+          type: boolean
+        isEmbalmingSelfApproved:
+          type: boolean
+        isCremationSelfApproved:
+          type: boolean
+        embalmerId:
+          type: integer
+        embalmingApprovedBy:
+          type: integer
+        cremationApprovedBy:
+          type: array
+          items:
+            type: integer
+    EducationInfo:
+      type: object
+      properties:
+        qualificationId:
+          type: integer
+        occupation:
+          type: string
+        yearsOfOccupation:
+          type: integer
+        industry:
+          type: string
+    VeteranInfo:
+      type: object
+      properties:
+        serviceBranchId:
+          type: integer
+        serviceEra:
+          type: string
+        isUnknown:
+          type: boolean
+    CertifierInfo:
+      allOf:
+        - $ref: '#/components/schemas/Caller'
+        - type: object
+          properties:
+            licenseNumber:
+              type: string
+            faxNumber:
+              type: string
+    
+    # Contacts
+    PersonContact:
+      type: object
+      properties:
+        contactType: 
+          type: integer
+        relationId:
+          type: integer
+        contactRoleIds:
+          type: array
+          items:
+            type: integer
+        person:
+          $ref: '#/components/schemas/Caller'
+    
+    Agreement:
+      type: object
+      properties:
+        saleTypeId:
+          type: integer
+        needType:
+          type: integer
+        persons:
+          type: array
+          items:
+            type: object
+            properties:
+              agreementRoleId:
+                type: integer
+              personId:
+                type: integer
+              isDeleted:
+                type: boolean
+                
+    Item:
+      type: object
+      properties:
+        itemId:
+          type: integer
+        removeAll:
+          type: boolean
+        itemType:
+          type: string
+          
+  requestBodies:
+
+    # Place
+    Place:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Place'
+    # Call
+    CreateCall:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/CreateCall'
+    EditCall:
+      content:
+        application/json:
+          schema:
+            allOf:
+              - $ref: '#/components/schemas/CreateCall'
+              - type: object
+                properties:
+                  id: 
+                    type: integer
+                    
+    # Verification
+    VerifyPerson:
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              unverifiedPersonId:
+                type: integer
+              verfiedPersonId:
+                type: integer
+              personType:
+                type: string
+              personInformation:
+                $ref: '#/components/schemas/VerifiedPerson'
+    
+    # Case Info
+    PrimaryDetails:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/VerifiedPerson'
+    EthnicityDetails:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Ethnicity'
+    DeathDetails:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/DeathDetails'
+    RemainsTransfer:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/RemainsTransfer'
+    RemainsInfo: 
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/RemainsInfo'
+    EducationInfo:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/EducationInfo'
+    VeteranInfo: 
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/VeteranInfo'
+    CertifierInfo:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/CertifierInfo'
+    
+    # Contacts
+    PersonContact:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/PersonContact'
+    
+    # Agreements
+    Agreement:
+      content: 
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Agreement'
+            
+    #Item
+    Item:
+      content: 
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Item'
+    
+  responses:  
+    Success:
+      description: success
+      
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: token
+      in: header

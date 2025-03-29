@@ -1,0 +1,350 @@
+{
+  "PN Funeral Trust": [
+    {
+      "code": "BENEFICIARY_INFORMATION",
+      "error": "Missing Beneficiary Information",
+      "resolution": "Complete beneficiary information",
+      "errorLevel": "High",
+      "navigateTo": "OPI_OVERVIEW_PAGE"
+    },
+    {
+      "code": "DOWN_PAYMENT<20",
+      "error": "<20% down payment",
+      "resolution": "Receive more than 20% down payment",
+      "errorLevel": "High",
+      "navigateTo": "PAYMENT_PAGE"
+    },
+    {
+      "code": "SPECIAL_FINANCING_NOT_APPROVED",
+      "error": "Special financing not approved",
+      "resolution": "Special financing must be approved by CEO or CFO",
+      "errorLevel": "High",
+      "navigateTo": "FINANCING_PAGE"
+    },
+    {
+      "code": "ACCOMMODATION_DISCOUNT_NOT_APPROVED",
+      "error": "Accommodation discount not approved",
+      "resolution": "All accommodation discounts must be approved",
+      "errorLevel": "High",
+      "navigateTo": "DISCOUNTING_PAGE"
+    },
+    {
+      "code": "NO_CASKET_OR_MINIMAL_CONTAINER",
+      "error": "No casket or minimal container",
+      "resolution": "Warning: No casket or minimal container purchased",
+      "errorLevel": "Medium",
+      "navigateTo": ""
+    },
+    {
+      "code": "NO_CREMATION_SERVICES_PURCHASE_FOR_CREMATION_SALES",
+      "error": "No cremation services purchase for cremation sales",
+      "resolution": "Warning: no cremation service purchased for cremation sales type",
+      "errorLevel": "Medium",
+      "navigateTo": ""
+    },
+    {
+      "code": "NO_URN_PURCHASED_FOR_CREMATION_SALES_TYPE",
+      "error": "No urn purchased for cremation sales type",
+      "resolution": "Warning: No urn purchased for cremation sales type",
+      "errorLevel": "Medium",
+      "navigateTo": ""
+    },
+    {
+      "code": "ALL_SPECIAL_ITEMS_MUST_BE_CLEARED",
+      "error": "All special items must be cleared",
+      "resolution": "All special item requests must have been processed by Purchasing",
+      "errorLevel": "High",
+      "navigateTo": "SPECIAL_ORDER_REQUEST_PAGE"
+    },
+    {
+      "code": "MISSING_CONTRACT_SIGNING",
+      "error": "Pending Statement/Contract signing",
+      "resolution": "Warning: Please sign the document",
+      "errorLevel": "Medium",
+      "navigateTo": "STATEMENT_LANDING_PAGE"
+    }
+  ],
+  "PN Funeral Insurance": [
+    {
+      "code": "BENEFICIARY_INFORMATION",
+      "error": "Missing Beneficiary Information",
+      "resolution": "Complete beneficiary information",
+      "errorLevel": "High",
+      "navigateTo": "OPI_OVERVIEW_PAGE"
+    },
+    {
+      "code": "ACCOMMODATION_DISCOUNT_NOT_APPROVED",
+      "error": "Accommodation discount not approved",
+      "resolution": "All accommodation discounts must be approved",
+      "errorLevel": "High",
+      "navigateTo": "DISCOUNTING_PAGE"
+    },
+    {
+      "code": "ALL_SPECIAL_ITEMS_MUST_BE_CLEARED",
+      "error": "All special items must be cleared",
+      "resolution": "All special item requests must have been processed by Purchasing",
+      "errorLevel": "High",
+      "navigateTo": "SPECIAL_ORDER_REQUEST_PAGE"
+    },
+    {
+      "code": "MISSING_CONTRACT_SIGNING",
+      "error": "Pending Statement/Contract signing",
+      "resolution": "Warning: Please sign the document",
+      "errorLevel": "Medium",
+      "navigateTo": "STATEMENT_LANDING_PAGE"
+    }
+  ],
+  "AN Funeral": [
+    {
+      "code": "DECEDENT_EDRS_REQUIRED_INFORMATION_NOT_COMPLETE",
+      "error": "Decedent EDRS required information not complete",
+      "resolution": "Decedent EDRS information must be complete",
+      "errorLevel": "High",
+      "navigateTo": "OPI_OVERVIEW_PAGE"
+    },
+    {
+      "code": "NOT_ALL_SERVICES_HAVE_BEEN_SCHEDULED",
+      "error": "Not all services have been scheduled",
+      "resolution": "All services must be schedule",
+      "errorLevel": "High",
+      "navigateTo": "SCHEDULING_LANDING_PAGE"
+    },
+    {
+      "code": "NO_DEATH_CERTIFICATE_PURCHASED",
+      "error": "No death certificate purchased",
+      "resolution": "At least 1 death certificate must be purchased",
+      "errorLevel": "High",
+      "navigateTo": "ITEM_SELECTION_PAGE"
+    },
+    {
+      "code": "NO_CASKET_OR_MINIMAL_CONTAINER",
+      "error": "No casket or minimal container",
+      "resolution": "At least 1 casket or minimal container must be purchase or provided by family",
+      "errorLevel": "Medium",
+      "navigateTo": "ITEM_SELECTION_PAGE"
+    },
+    {
+      "code": "NO_CREMATION_SERVICES_PURCHASE_FOR_CREMATION_SALES",
+      "error": "No cremation services purchase for cremation sales",
+      "resolution": "Cremation service must be purchase for cremation sales type",
+      "errorLevel": "Medium",
+      "navigateTo": "ITEM_SELECTION_PAGE"
+    },
+    {
+      "code": "NOT_ALL_CASH_ADVANCE_CHECKS_HAS_BEEN_GENERATED",
+      "error": "Not all cash advance checks has been generated",
+      "resolution": "All cash advance items must have check request sent to AP",
+      "errorLevel": "High",
+      "navigateTo": "CASH_ADVANCE_CHECK_PAGE"
+    },
+    {
+      "code": "ACCOMMODATION_DISCOUNT_NOT_APPROVED",
+      "error": "Accommodation discount not approved",
+      "resolution": "All accommodation discounts must be approved",
+      "errorLevel": "High",
+      "navigateTo": "DISCOUNTING_PAGE"
+    },
+    {
+      "code": "ALL_SPECIAL_ITEMS_MUST_BE_CLEARED",
+      "error": "All special items must be cleared",
+      "resolution": "All special item requests must have been processed by Purchasing",
+      "errorLevel": "High",
+      "navigateTo": "SPECIAL_ORDER_REQUEST_PAGE"
+    },
+    {
+      "code": "NO_FINAL_DISPOSTION_METHOD_INDICATED",
+      "error": "No final dispostion method indicated",
+      "resolution": "Warning: No final dispostion method indicated",
+      "errorLevel": "Medium",
+      "navigateTo": ""
+    },
+    {
+      "code": "CERTIFIER_REQUIRED_INFORMATION_NOT_COMPLETE",
+      "error": "Certifier required information not complete",
+      "resolution": "Certifier information must be complete",
+      "errorLevel": "Medium",
+      "navigateTo": "OPI_OVERVIEW_PAGE"
+    },
+    {
+      "code": "MISSING_CONTRACT_SIGNING",
+      "error": "Pending Statement/Contract signing",
+      "resolution": "Warning: Please sign the document",
+      "errorLevel": "Medium",
+      "navigateTo": "STATEMENT_LANDING_PAGE"
+    },
+    {
+      "code": "MISSING_BODY_TRACKING_NUMBER",
+      "error": "Missing Body Tracking Number",
+      "resolution": "Warning: Please generate the body tracking number",
+      "errorLevel": "High",
+      "navigateTo": "OPI_OVERVIEW_PAGE"
+    }
+  ],
+  "PN Cemetery": [
+    {
+      "code": "DOWN_PAYMENT<5",
+      "error": "<5% down payment",
+      "resolution": "Receive at minimum 5% down payment",
+      "errorLevel": "High",
+      "navigateTo": "FINANCING_PAGE"
+    },
+    {
+      "code": "MISSING_OWNER_INFORMATION",
+      "error": "Missing Owner information",
+      "resolution": "Complete owner information",
+      "errorLevel": "High",
+      "navigateTo": "CONTRACT_LANDING_PAGE"
+    },
+    {
+      "code": "CEMETERY_AUTHORITY",
+      "error": "Missing Cemetery Authority",
+      "resolution": "Must indicate cemetery authority",
+      "errorLevel": "High",
+      "navigateTo": ""
+    },
+    {
+      "code": "BENEFICIARY_INFORMATION",
+      "error": "Missing Beneficiary Information",
+      "resolution": "Warning: Missing Beneficiary EDRS Information",
+      "errorLevel": "Medium",
+      "navigateTo": ""
+    },
+    {
+      "code": "MISSING_MEMORIAL",
+      "error": "Missing memorial",
+      "resolution": "Warning: No memorial has been purchased",
+      "errorLevel": "Medium",
+      "navigateTo": ""
+    },
+    {
+      "code": "MISSING_BURIAL_REQUIRED_ITEMS",
+      "error": "Missing burial required items",
+      "resolution": "Warning: Future burial items has not been purchased",
+      "errorLevel": "Medium",
+      "navigateTo": ""
+    },
+    {
+      "code": "ACCOMMODATION_DISCOUNT_NOT_APPROVED",
+      "error": "Accommodation discount not approved",
+      "resolution": "All accommodation discounts must be approved",
+      "errorLevel": "High",
+      "navigateTo": "DISCOUNTING_PAGE"
+    },
+    {
+      "code": "MISSING_PROPERTY_OWNER",
+      "error": "Missing Property Owner",
+      "resolution": "Add atleast 1 owner for each property",
+      "errorLevel": "High",
+      "navigateTo": "OWNERSHIP_DETAILS_PAGE"
+    },
+    {
+      "code": "MISSING_CONTRACT_SIGNING",
+      "error": "Pending Statement/Contract signing",
+      "resolution": "Warning: Please sign the document",
+      "errorLevel": "Medium",
+      "navigateTo": "STATEMENT_LANDING_PAGE"
+    },
+    {
+      "code": "MISSING_AGREEMENT_PERSON_ADDRESS_INFORMATION",
+      "error": "Missing agreement person address information",
+      "resolution": "Warning: Missing agreement person address information",
+      "errorLevel": "High",
+      "navigateTo": "STATEMENT_LANDING_PAGE"
+    }
+  ],
+  "AN Cemetery": [
+    {
+      "code": "ITEMS_USED_FOR_BURIAL_MUST_BE_PAID_IN_FULL",
+      "error": "Items used for burial must be paid in full",
+      "resolution": "Payment required for service items",
+      "errorLevel": "High",
+      "navigateTo": "PAYMENT_PAGE"
+    },
+    {
+      "code": "NO_VAULT_PURCHASED",
+      "error": "No vault purchased",
+      "resolution": "At least 1 vault must be purchase for ground burial",
+      "errorLevel": "High",
+      "navigateTo": "ITEM_SELECTION_PAGE"
+    },
+    {
+      "code": "NO_URN_PURCHASED",
+      "error": "No urn purchased",
+      "resolution": "At least 1 urn must be purchased or provided by family",
+      "errorLevel": "Medium",
+      "navigateTo": "ITEM_SELECTION_PAGE"
+    },
+    {
+      "code": "FULL_BODY_REMAINS_NOT_EMBALMED_MUST_PURCHASE_EN-SURE_SEAL",
+      "error": "Full body remains not embalmed must purchase En-sure seal",
+      "resolution": "En-sure seal must be purchase",
+      "errorLevel": "High",
+      "navigateTo": "ITEM_SELECTION_PAGE"
+    },
+    {
+      "code": "NO_FUNERAL_HOME_INFORMATION_PROVIDED",
+      "error": "No funeral home information provided",
+      "resolution": "Must have funeral home indicated",
+      "errorLevel": "High",
+      "navigateTo": "SCHEDULING_LANDING_PAGE"
+    },
+    {
+      "code": "MISSING_CEMETERY_AUTHORITY",
+      "error": "Missing Cemetery Authority",
+      "resolution": "Must indicate cemetery authority",
+      "errorLevel": "High",
+      "navigateTo": ""
+    },
+    {
+      "code": "MISSING_NOK_INFORMATION",
+      "error": "Missing NOK information",
+      "resolution": "Warning: No NOK information provided",
+      "errorLevel": "Medium",
+      "navigateTo": ""
+    },
+    {
+      "code": "MISSING_MEMORIAL",
+      "error": "Missing memorial",
+      "resolution": "Warning: No memorial has been purchased",
+      "errorLevel": "Medium",
+      "navigateTo": ""
+    },
+    {
+      "code": "NOT_ALL_SERVICES_HAVE_BEEN_SCHEDULED",
+      "error": "Not all services have been scheduled",
+      "resolution": "All services must be schedule",
+      "errorLevel": "High",
+      "navigateTo": "SCHEDULING_LANDING_PAGE"
+    },
+    {
+      "code": "MISSING_PROPERTY_OWNER",
+      "error": "Missing Property Owner",
+      "resolution": "Add atleast 1 owner for each property",
+      "errorLevel": "High",
+      "navigateTo": "OWNERSHIP_DETAILS_PAGE"
+    },
+    {
+      "code": "MISSING_CONTRACT_SIGNING",
+      "error": "Pending Statement/Contract signing",
+      "resolution": "Warning: Please sign the document",
+      "errorLevel": "Medium",
+      "navigateTo": "STATEMENT_LANDING_PAGE"
+    },
+    {
+      "code": "MISSING_AGREEMENT_PERSON_ADDRESS_INFORMATION",
+      "error": "Missing agreement person address information",
+      "resolution": "Warning: Missing agreement person address information",
+      "errorLevel": "High",
+      "navigateTo": "STATEMENT_LANDING_PAGE"
+    }
+  ],
+  "Misc Sales": [
+    {
+      "code": "MISC_SALES_DUE_EXISTS",
+      "error": "Due amount is exists",
+      "resolution": "Please clear your due amount",
+      "errorLevel": "High",
+      "navigateTo": "PAYMENT_PAGE"
+    }
+  ]
+}

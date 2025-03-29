@@ -1,0 +1,73 @@
+[{
+    "id": 1,
+    "name": "Alexander Ortega",
+    "salesCounselorId": 1,
+    "email": "ortega@gmail.com",
+    "phoneNumber": "8002901358",
+    "employeeTypeId": 4,
+    "isActive":1
+}, {
+    "id": 2,
+    "name": "ALAN VOUNG",
+    "salesCounselorId": 2,
+    "email": "alanvoung@gmail.com",
+    "phoneNumber": "8002961578",
+    "employeeTypeId": 4,
+    "isActive":1
+}, {
+    "id": 3,
+    "name": "Alfredo Gelasio",
+    "salesCounselorId": 3,
+    "email": "alfredogelasio@gmail.com",
+    "phoneNumber": "8002965089",
+    "employeeTypeId": 4,
+    "isActive":1
+},{
+    "id": 4,
+    "name": "Alvin Dougharty",
+    "email": "alvindougharty@gmail.com",
+    "salesCounselorId": 4,
+    "phoneNumber": "8003143843",
+    "employeeTypeId": 1,
+    "isActive":1
+}, {
+    "id": 5,
+    "name": "Baohong Zhu",
+    "email": "BaohongZhu@gmail.com",
+    "salesCounselorId": 5,
+    "phoneNumber": "8003462103",
+    "employeeTypeId": 2,
+    "isActive":1
+}, {
+    "id": 6,
+    "name": "Bernadette Villarin",
+    "email": "bernadettevillarin@gmail.com",
+    "salesCounselorId": 6,
+    "phoneNumber": "8003619431",
+    "employeeTypeId": 3,
+    "isActive":1
+}, {
+    "id": 7,
+    "name": "Bernadette Villarin",
+    "email": "bernadettevillarin@gmail.com",
+    "salesCounselorId": 7,
+    "phoneNumber": "8003619431",
+    "employeeTypeId": 5,
+    "isActive":1
+}, {
+    "id": 8,
+    "name": "Carol Cheng",
+    "email": "carolcheng@gmail.com",
+    "salesCounselorId": 8,
+    "phoneNumber": "8003643046",
+    "employeeTypeId": 6,
+    "isActive":1
+}, {
+    "id": 9,
+    "name": "Charlie Arancia",
+    "email": "charliearancia@gmail.com",
+    "salesCounselorId": 9,
+    "phoneNumber": "8003829341",
+    "employeeTypeId": 7,
+    "isActive":1
+}]

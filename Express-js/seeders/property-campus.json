@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "East Side",
+        "code": "ES",
+        "locationId": 2,
+        "license": "FD1797"
+    },
+    {
+        "id": 2,
+        "name": "Hill Side",
+        "code": "HS",
+        "locationId": 2,
+        "license": "FD1797"
+    },
+    {
+        "id": 3,
+        "name": "West Side",
+        "code": "WS",
+        "locationId": 2,
+        "license": "FD1797"
+    },
+    {
+        "id": 4,
+        "name": "Olivet campus",
+        "code": "COM",
+        "locationId": 2,
+        "license": "FD1797"
+    }
+]

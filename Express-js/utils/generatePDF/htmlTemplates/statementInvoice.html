@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+    }
+    th,
+    td {
+      text-align: left;
+    }
+    th:first-child {
+      width: 400px;
+    }
+    td:first-child {
+      width: 400px;
+    }
+    th:not(:first-child) {
+       width: 150px;
+    }
+    td:not(:first-child){
+      width: 150px;
+      /* word-break: break-all; */
+    }
+    tr {
+      margin-bottom: 10px !important;
+    }
+    .left-align {
+      text-align: left;
+    }
+    .center-align {
+      text-align: center;
+    }
+    .address-block {
+      margin-left: 50px;
+    }
+    .right-align {
+      text-align: right;
+    }
+    .statement {
+      margin: 10px;
+      width: 90%;
+    }
+    .purchaser-block {
+      margin-left: 150px;
+    }
+    hr {
+      border: 1px solid #000000;
+    }
+    .inline-block {
+      display: inline-block;
+    }
+    .footer-labels {
+      width: 140px;
+      margin-bottom: 3px;
+    }
+    .footer-block {
+      width: 94%;
+      margin-bottom: 3px;
+      text-align: right;
+    }
+    .footer-block:first-child {
+     margin-top: 10px;
+    }
+    .payment-table{
+      margin-top: 30px
+    }
+    .list{
+      padding-left: 25px;
+    }
+    p {
+    margin-top: 0px;
+    margin-bottom: 3px;
+  }
+  h4{
+    margin: -5px;
+  }
+  .payment-table td .payor{
+      padding-left: 27px
+    }
+    .payment-table td .reference{
+      word-break: break-all;
+    }
+  
+  </style>
+</head>
+<body>
+  <div class="left-align address-block">
+    <p>{{{agreementLocationName}}}</p>
+    <p>{{agreementLocationAddressLine1}}</p>
+    <p>{{agreementLocationAddressLine2}}</p>
+    <p>{{agreementLocationPhone}}</p>
+  </div>
+  <div class="right-align statement">STATEMENT</div>
+  <div class="left-align purchaser-block">
+    <p>{{purchaserName}}</p>
+    <p>{{puchaserAddressLine1}}</p>
+    <p>{{puchaserAddressLine2}}</p>
+  </div>
+  <table class="decedent-details">
+    <tr>
+      <td style="width: 300px">{{contractNumber}}</td>
+      <td>Services For : {{decedentName}}</td>
+    </tr>
+  </table>
+  <hr />
+  <table class="selection-detail">
+    <tr>
+      <th>Selection Detail</th>
+      <th></th>
+      <th class="Qty"><p>Qty</p></th>
+      <th>Unit Price</th>
+      <th>Total Price</th>
+    </tr>
+  </table>
+  <div style="margin: 10px 0">
+    <h4>Professional Services, Facilities, and Transportation</h4>
+  </div>
+  <table class="list package_and_service_table">
+    {{#each packageAndServiceArea}}
+    <tr>
+      <td>{{itemName}}</td>
+      <td></td>
+      <td> {{quantity}}</td>
+      <td> ${{unitPrice}}</td>
+      <td> ${{totalPrice}}</td>
+    </tr>
+    {{/each}}
+  </table>
+  <div style="margin: 10px 0">
+    <h4>Merchandise as Selected</h4></div>
+  <table class="list merchandise_table">
+    {{#each merchandiseArea}}
+    <tr>
+        <td>{{itemName}}</td>
+        <td></td>
+        <td> {{quantity}}</td>
+        <td> ${{unitPrice}}</td>
+        <td> ${{totalPrice}}</td>
+    </tr>
+    {{/each}}
+  </table>
+  <div style="margin: 10px 0">
+    <h4>Cash Advances</h4></div>
+  <table class="list cash_advance_table">
+      {{#each caiArea}}
+      <tr>
+          <td>{{itemName}}</td>
+          <td></td>
+          <td> {{quantity}}</td>
+          <td> ${{unitPrice}}</td>
+          <td> ${{totalPrice}}</td>
+      </tr>
+      {{/each}}
+    </table>
+  <table class="payment-table">
+      {{#each payments}}
+      <tr>
+          <td><p class="payor">{{payorName}}</p></td>
+          <td> {{paymentMode}}</td>
+          <td> <p class="reference">{{paymentReferenceNumber}}</p></td>
+          <td> {{paymentDate}}</td>
+          <td> ${{paidAmount}}</td>
+      </tr>
+      {{/each}}
+  </table>
+  <hr />
+  <div class="footer-block">
+    <div class="inline-block footer-labels">Subtotal</div>
+    <div class="inline-block footer-labels">${{totalPrice}}</div>
+  </div>
+  <div class="footer-block">
+    <div class="inline-block footer-labels">Sales Tax</div>
+    <div class="inline-block footer-labels">${{salesTax}}</div>
+  </div>
+  <div class="footer-block">
+    <div class="inline-block footer-labels">Discount/Adjustment</div>
+    <div class="inline-block footer-labels">${{totalAdjustment}}</div>
+  </div>
+  <div class="footer-block" style="margin-bottom: 20px">
+    <div class="inline-block footer-labels">Total Amount</div>
+    <div class="inline-block footer-labels">${{totalCost}}</div>
+  </div>
+  <div class="footer-block">
+    <div class="inline-block footer-labels">Total Payment</div>
+    <div class="inline-block footer-labels">${{totalPaid}}</div>
+  </div>
+  <div class="footer-block">
+    <div class="inline-block footer-labels">Balance Due</div>
+    <div class="inline-block footer-labels">${{due}}</div>
+  </div>
+</body>
+</html>

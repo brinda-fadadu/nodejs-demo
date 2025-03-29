@@ -1,0 +1,18 @@
+const router = require('express').Router()
+const { getListOfContracts, getContractDetails, linkContract, validateAgreement, syncAgreement, reSyncAgreement, getHMISSyncStatus } = require('./hmisHandler')
+const { getContracts, getContractDetailsValidation, linkContractValidation, agreementValidation } = require('../../lib/validations/hmis')
+const authentication = require('../../middleware/authentication')
+const roleBasedAccess = require('../../middleware/roleAuth')
+const { agreementsAuth } = require('../../middleware/agreementsAuth')
+const paginationCheck = require('../../lib/paginationCheckMiddleware')
+const timeOut = require('connect-timeout')
+router.use(authentication)
+
+router.get('/contracts', getContracts, getListOfContracts)
+router.get('/contracts/:contractId', getContractDetailsValidation, getContractDetails)
+router.get('/sync-status', paginationCheck, roleBasedAccess('Admin'), getHMISSyncStatus)
+router.put('/contracts/:salesId/link', timeOut('120s'), linkContractValidation, roleBasedAccess('Cemetery'), linkContract)
+router.put('/agreements/validation/:agreementId', agreementValidation, agreementsAuth, roleBasedAccess(), validateAgreement)
+router.put('/agreements/sync/:agreementId', agreementValidation, agreementsAuth, roleBasedAccess(), syncAgreement)
+router.put('/agreements/re-sync/:agreementId', agreementValidation, agreementsAuth, roleBasedAccess(), reSyncAgreement)
+module.exports = router

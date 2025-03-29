@@ -1,0 +1,586 @@
+[
+  {
+    "id": 1,
+    "propertyCampus": "WS",
+    "propertyType": "Sarcophagus",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 1
+  },
+  {
+    "id": 2,
+    "propertyCampus": "HS",
+    "propertyType": "Stone Estate 1 Plot",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 1
+  },
+  {
+    "id": 3,
+    "propertyCampus": "HS",
+    "propertyType": "Stone Estate 10 Plots",
+    "graves": 10,
+    "rights": 18,
+    "maxRights": 18
+  },
+  {
+    "id": 4,
+    "propertyCampus": "HS",
+    "propertyType": "Stone Estate 2 Plots",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 5,
+    "propertyCampus": "HS",
+    "propertyType": "Stone Estate 3 Plots",
+    "graves": 3,
+    "rights": 4,
+    "maxRights": 4
+  },
+  {
+    "id": 6,
+    "propertyCampus": "HS",
+    "propertyType": "Stone Estate 4 Plots",
+    "graves": 4,
+    "rights": 6,
+    "maxRights": 6
+  },
+  {
+    "id": 7,
+    "propertyCampus": "HS",
+    "propertyType": "Stone Estate 5 Plots",
+    "graves": 5,
+    "rights": 8,
+    "maxRights": 8
+  },
+  {
+    "id": 8,
+    "propertyCampus": "HS",
+    "propertyType": "Stone Estate 6 Plots",
+    "graves": 6,
+    "rights": 10,
+    "maxRights": 10
+  },
+  {
+    "id": 9,
+    "propertyCampus": "HS",
+    "propertyType": "Stone Estate 7 Plots",
+    "graves": 7,
+    "rights": 12,
+    "maxRights": 12
+  },
+  {
+    "id": 10,
+    "propertyCampus": "HS",
+    "propertyType": "Stone Estate 8 Plots",
+    "graves": 8,
+    "rights": 14,
+    "maxRights": 14
+  },
+  {
+    "id": 11,
+    "propertyCampus": "WS",
+    "propertyType": "Tomb Room",
+    "graves": 6,
+    "rights": 6,
+    "maxRights": 6
+  },
+  {
+    "id": 12,
+    "propertyCampus": "WS",
+    "propertyType": "Community Niche",
+    "graves": 1,
+    "rights": -1,
+    "maxRights": -1
+  },
+  {
+    "id": 13,
+    "propertyCampus": "ES",
+    "propertyType": "Community Niche",
+    "graves": 1,
+    "rights": -1,
+    "maxRights": -1
+  },
+  {
+    "id": 14,
+    "propertyCampus": "HS",
+    "propertyType": "Companion Grave",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 4
+  },
+  {
+    "id": 15,
+    "propertyCampus": "HS",
+    "propertyType": "Cremation Estate",
+    "graves": 4,
+    "rights": 4,
+    "maxRights": 4
+  },
+  {
+    "id": 16,
+    "propertyCampus": "HS",
+    "propertyType": "Cremorial",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 17,
+    "propertyCampus": "HS",
+    "propertyType": "Crypt",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 2
+  },
+  {
+    "id": 18,
+    "propertyCampus": "WS",
+    "propertyType": "Crypt",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 2
+  },
+  {
+    "id": 19,
+    "propertyCampus": "HS",
+    "propertyType": "Crypt - Couch",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 2
+  },
+  {
+    "id": 20,
+    "propertyCampus": "WS",
+    "propertyType": "Crypt - Couch",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 2
+  },
+  {
+    "id": 21,
+    "propertyCampus": "HS",
+    "propertyType": "Crypt - Deluxe Companion",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 22,
+    "propertyCampus": "WS",
+    "propertyType": "Crypt - Deluxe Companion",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 23,
+    "propertyCampus": "WS",
+    "propertyType": "Crypt - Deluxe Companion Westminster",
+    "graves": 4,
+    "rights": 4,
+    "maxRights": 4
+  },
+  {
+    "id": 24,
+    "propertyCampus": "WS",
+    "propertyType": "Crypt - Quad",
+    "graves": 4,
+    "rights": 4,
+    "maxRights": 4
+  },
+  {
+    "id": 25,
+    "propertyCampus": "WS",
+    "propertyType": "Crypt - Quad Westminster",
+    "graves": 8,
+    "rights": 8,
+    "maxRights": 8
+  },
+  {
+    "id": 26,
+    "propertyCampus": "HS",
+    "propertyType": "Crypt - Tandem",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 4
+  },
+  {
+    "id": 27,
+    "propertyCampus": "WS",
+    "propertyType": "Crypt - Tandem",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 4
+  },
+  {
+    "id": 28,
+    "propertyCampus": "WS",
+    "propertyType": "Crypt - Tandem Westminster",
+    "graves": 4,
+    "rights": 4,
+    "maxRights": 4
+  },
+  {
+    "id": 29,
+    "propertyCampus": "WS",
+    "propertyType": "Crypt Niche",
+    "graves": 1,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 30,
+    "propertyCampus": "WS",
+    "propertyType": "Crypt Westminster",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 31,
+    "propertyCampus": "HS",
+    "propertyType": "DD Lawn Crypt",
+    "graves": 1,
+    "rights": 2,
+    "maxRights": 4
+  },
+  {
+    "id": 32,
+    "propertyCampus": "WS",
+    "propertyType": "DD Lawn Crypt",
+    "graves": 1,
+    "rights": 2,
+    "maxRights": 4
+  },
+  {
+    "id": 33,
+    "propertyCampus": "WS",
+    "propertyType": "Estate",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 34,
+    "propertyCampus": "ES",
+    "propertyType": "Estate",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 35,
+    "propertyCampus": "HS",
+    "propertyType": "Granite Estate 1 Plot",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 1
+  },
+  {
+    "id": 36,
+    "propertyCampus": "HS",
+    "propertyType": "Granite Estate 10 Plots",
+    "graves": 10,
+    "rights": 16,
+    "maxRights": 16
+  },
+  {
+    "id": 37,
+    "propertyCampus": "HS",
+    "propertyType": "Granite Estate 2 Plots",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 38,
+    "propertyCampus": "HS",
+    "propertyType": "Granite Estate 3 Plots",
+    "graves": 3,
+    "rights": 4,
+    "maxRights": 4
+  },
+  {
+    "id": 39,
+    "propertyCampus": "HS",
+    "propertyType": "Granite Estate 4 Plots",
+    "graves": 4,
+    "rights": 6,
+    "maxRights": 6
+  },
+  {
+    "id": 40,
+    "propertyCampus": "HS",
+    "propertyType": "Granite Estate 5 Plots",
+    "graves": 5,
+    "rights": 8,
+    "maxRights": 8
+  },
+  {
+    "id": 41,
+    "propertyCampus": "HS",
+    "propertyType": "Granite Estate 6 Plots",
+    "graves": 6,
+    "rights": 10,
+    "maxRights": 10
+  },
+  {
+    "id": 42,
+    "propertyCampus": "HS",
+    "propertyType": "Granite Estate 7 Plots",
+    "graves": 7,
+    "rights": 12,
+    "maxRights": 12
+  },
+  {
+    "id": 43,
+    "propertyCampus": "HS",
+    "propertyType": "Granite Estate 8 Plots",
+    "graves": 8,
+    "rights": 14,
+    "maxRights": 14
+  },
+  {
+    "id": 44,
+    "propertyCampus": "HS",
+    "propertyType": "Grave",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 4
+  },
+  {
+    "id": 45,
+    "propertyCampus": "HS",
+    "propertyType": "Grave",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 8
+  },
+  {
+    "id": 46,
+    "propertyCampus": "WS",
+    "propertyType": "Grave",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 4
+  },
+  {
+    "id": 47,
+    "propertyCampus": "WS",
+    "propertyType": "Grave",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 8
+  },
+  {
+    "id": 48,
+    "propertyCampus": "ES",
+    "propertyType": "Grave",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 4
+  },
+  {
+    "id": 49,
+    "propertyCampus": "ES",
+    "propertyType": "Grave",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 8
+  },
+  {
+    "id": 50,
+    "propertyCampus": "HS",
+    "propertyType": "Hedge Estate 1 Plot",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 1
+  },
+  {
+    "id": 51,
+    "propertyCampus": "HS",
+    "propertyType": "Hedge Estate 10 Plots",
+    "graves": 10,
+    "rights": 16,
+    "maxRights": 16
+  },
+  {
+    "id": 52,
+    "propertyCampus": "HS",
+    "propertyType": "Hedge Estate 2 Plots",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 53,
+    "propertyCampus": "HS",
+    "propertyType": "Hedge Estate 3 Plots",
+    "graves": 3,
+    "rights": 4,
+    "maxRights": 4
+  },
+  {
+    "id": 54,
+    "propertyCampus": "HS",
+    "propertyType": "Hedge Estate 4 Plots",
+    "graves": 4,
+    "rights": 6,
+    "maxRights": 6
+  },
+  {
+    "id": 55,
+    "propertyCampus": "HS",
+    "propertyType": "Hedge Estate 5 Plots",
+    "graves": 5,
+    "rights": 8,
+    "maxRights": 8
+  },
+  {
+    "id": 56,
+    "propertyCampus": "HS",
+    "propertyType": "Hedge Estate 6 Plots",
+    "graves": 6,
+    "rights": 10,
+    "maxRights": 10
+  },
+  {
+    "id": 57,
+    "propertyCampus": "HS",
+    "propertyType": "Hedge Estate 7 Plots",
+    "graves": 7,
+    "rights": 12,
+    "maxRights": 12
+  },
+  {
+    "id": 58,
+    "propertyCampus": "HS",
+    "propertyType": "Hedge Estate 8 Plots",
+    "graves": 8,
+    "rights": 14,
+    "maxRights": 14
+  },
+  {
+    "id": 59,
+    "propertyCampus": "HS",
+    "propertyType": "Niche",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 60,
+    "propertyCampus": "WS",
+    "propertyType": "Niche",
+    "graves": 1,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 61,
+    "propertyCampus": "COM",
+    "propertyType": "Crypt",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 2
+  },
+  {
+    "id": 62,
+    "propertyCampus": "COM",
+    "propertyType": "Crypt - Couch",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 2
+  },
+  {
+    "id": 63,
+    "propertyCampus": "COM",
+    "propertyType": "Crypt - Tandem",
+    "graves": 1,
+    "rights": 2,
+    "maxRights": 4
+  },
+  {
+    "id": 64,
+    "propertyCampus": "COM",
+    "propertyType": "Crypt Westminster",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 65,
+    "propertyCampus": "COM",
+    "propertyType": "Cremation Estate",
+    "graves": 1,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 66,
+    "propertyCampus": "COM",
+    "propertyType": "Estate",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 67,
+    "propertyCampus": "COM",
+    "propertyType": "DD Lawn Crypt",
+    "graves": 1,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 68,
+    "propertyCampus": "COM",
+    "propertyType": "Crypt Niche",
+    "graves": 1,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 69,
+    "propertyCampus": "COM",
+    "propertyType": "Niche",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 2
+  },
+  {
+    "id": 70,
+    "propertyCampus": "COM",
+    "propertyType": "Grave",
+    "graves": 1,
+    "rights": 1,
+    "maxRights": 4
+  },
+  {
+    "id": 71,
+    "propertyCampus": "COM",
+    "propertyType": "Grave",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 8
+  },
+  {
+    "id": 72,
+    "propertyCampus": "ES",
+    "propertyType": "Niche",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 2
+  },
+  {
+    "id": 73,
+    "propertyCampus": "COM",
+    "propertyType": "Hedge Estate 2 Plots",
+    "graves": 2,
+    "rights": 2,
+    "maxRights": 4
+  }
+]

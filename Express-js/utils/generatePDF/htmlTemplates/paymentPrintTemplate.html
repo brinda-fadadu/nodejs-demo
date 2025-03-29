@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Payments Receipt</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<style  type="text/css">
+  * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+  body {
+      padding: 0;
+      margin: 0;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 28px;
+      font-family: 'Lato', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+      margin: 0
+  }
+  p {
+      margin: 0 0 15px;
+  }
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+  .wrapper {
+      padding: 25px;
+  }
+  .header {
+      margin-bottom: 40px;
+  }
+    .header td{    line-height: 40px;}
+  .clear:before, .row:before {
+      display: table;
+      content: " ";
+  }
+  .clear:after, .row:after {
+      display: table;
+      content: " ";
+      clear: both;
+  }
+  .row {
+      margin-left: -15px;
+      margin-right: -15px
+  }
+  .cols {
+      float: left;
+      position: relative;
+      min-height: 1px;
+      padding-right: 15px;
+      padding-left: 15px;
+  }
+  .col-100 {
+      width: 100%
+  }
+  .col-60 {
+      width: 60%;
+  }
+  .col-50 {
+      width: 50%;
+  }
+  .col-40 {
+      width: 40%;
+  }
+  .header table {
+      text-align: right;    margin-top: 30px;
+  }
+  .card {
+      background-color: #f7fbf8;
+      padding: 30px;
+      margin-bottom: 20px;
+  }
+  .card-alt {
+      background-color: #F9F9F9;
+  }
+  .card-title {
+      margin-bottom: 20px;
+      font-size: 30px;
+      font-weight: 600
+  }
+  .card-subtitle {
+      margin-bottom: 10px;
+      font-size: 24px;
+      text-transform: capitalize;
+      font-weight: 400
+  }
+  .paycard-img {
+      width: 30px;
+      height: 21px;
+      object-fit: contain;
+      margin-right: 8px;
+  }
+  .price {
+      text-align: right;
+      font-size: 30px;
+      font-weight: 600
+  }
+  .tab {
+      width: 100%
+  }
+    .tab tr { margin-bottom: 25px;
+    }
+  .tab td {
+      vertical-align: baseline;
+      padding: 0 15px 25px;
+  }
+    .tab td.col-60 {width: 55%}
+    .tab .list{font-size: 20px;;font-weight: bold}
+  </style>
+</head>
+
+<body>
+<div class="wrapper clear"> 
+  <div class="header row">
+    <div class="col-60 cols">
+      <p>
+        <img src="{{clLogo}}" class="" alt="" /></p>
+      <p>{{title}} <br>
+        {{address}} <br>
+      {{phone}}</p>
+    </div>
+    <div class="col-40 cols">
+      <table border="0" align="right" width="350">
+        <tbody>
+          <tr>
+            <td>{{agreementType}} :</td>
+            <td><strong>{{agreementContractNumber}} </strong></td>
+          </tr>
+          <tr>
+            <td>Receipt Number :</td>
+            <td><strong># {{receiptNumber}}</strong></td>
+          </tr>
+          <tr>
+            <td>Payment Date :</td>
+            <td><strong>{{paymentDate}}</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {{#if paymentPerson}}
+  <div class="card clear">
+    <h2 class="card-title">Payor</h2>
+    <div class="row">
+      <h3 class="card-subtitle cols col-100">{{paymentPerson}}</h3>
+      <div class="col-40 cols">
+        <p>{{payorAddress}}</p>
+      </div>
+      <div class="col-60 cols">
+        <p>{{payorEmail}}<br>
+          {{payorPhone}}</p>
+      </div>
+    </div>
+  </div>
+  {{/if}}
+  <div class="card card-alt clear">
+    <h2 class="card-title">{{decedentTitle}}</h2>
+    <div class="row">
+      <table class="tab">
+        {{#each decedents}}
+        <tr>
+          <td width="20" class="list">{{index}}</td>
+          <td class="col-40 "><h3 class="card-subtitle"> {{decedentName}}</h3>
+            {{decedentOnePortalNumber}} </td>
+            <td class="col-60 "> &nbsp; </td>
+        </tr>
+        {{/each}}
+      </table>
+    </div>
+  </div>
+  <div class="card card-alt clear">
+    <h2 class="card-title">Payment Method</h2>
+    <div class="row">
+      <div class="col-40 cols" style="font-size: 22px">
+        <p>
+           {{#if endingWith}}
+              <img src="{{Visa}}" class="paycard-img" alt="{{brand}}" />
+                Card ending with {{endingWith}}     
+          {{^}}
+              {{paymentType}}
+          {{/if}}
+          {{#if bank}}
+              {{bank}}
+          {{/if}}
+          </p>
+      </div>
+      <div class="col-60 cols">
+        <p class="price">${{amount}}</p>
+      </div>
+    </div>
+    {{#if referenceNumber}}
+      <div class="row" style="padding-top: 25px;">
+        <div class="cols" style="font-size: 22px; width: 100%;">
+          <h3 class="card-subtitle">Reference Number</h3>
+              <p style="width: 100%; font-size: 18px;">{{referenceNumber}}</p>
+        </div>
+      </div>
+    {{/if}}
+    {{#if remarks}}
+      <div class="row" style="padding-top: 25px;">
+        <div class="cols" style="font-size: 22px; width: 100%;">
+          <h3 class="card-subtitle">Remarks</h3>
+              <p style="width: 100%; font-size: 18px;">{{remarks}}</p>
+        </div>
+      </div>
+    {{/if}}
+  </div>
+  <div class="card clear" style="margin-bottom: 0px;padding-bottom: 0px;">
+    <div class="row">
+      <div class="col-60 cols">
+        <h2 class="card-title">Balance after the payment</h2>
+      </div>
+      <div class="col-40 cols">
+        <h2 class="card-title price">${{due}}</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-100 cols">
+        <p>Disclaimer: <br />
+        If there is a remaining balance after this payment, please refer to the contract and any related addendum(s) for payment due details</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

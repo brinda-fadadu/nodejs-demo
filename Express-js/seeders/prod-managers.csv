@@ -1,0 +1,175 @@
+Sales_Counselor_ID,Sales_Counselor_Type_Cd,Name,Emp_No,managerName,Manager_ID,secondManager,secondManager_ID
+755414,FS,A. A. Tester,1,A. B. Tester-OV,755415,NULL,NULL
+755417,FF-2,A. D. Tester,658787,NULL,NULL,NULL,NULL
+755418,FF-2,A. E. Tester,982388,NULL,NULL,NULL,NULL
+500257,FF-2,A. F. Tester,588867,Monte Sanidad,338068,NULL,NULL
+16356323,FF-2,Ada Rosales,460,Sandra Guzman,606623,Margarita Hernandez,31660735
+27666009,FA,Adolfo Rivera,449,NULL,NULL,NULL,NULL
+341259,FF-1,ALAN VUONG,550,Aurora Mulchand,341247,Margarita Hernandez,31660735
+52631442,FF-2,Alice Sustrina,753,Aurora Mulchand,341247,NULL,NULL
+755443,FF-1,Alma Estevez,158,Sandra Guzman,606623,Margarita Hernandez,31660735
+3364449,FS,Alvin Dougharty,146,Cathy Severance,31516858,NULL,NULL
+27898695,FA,Amy Chiang,95,Armando Santana,14010074,Jack Jensen,16151
+42921020,FA,Ana Castillo,648,Armando Santana,14010074,Jack Jensen,16151
+47801459,ACCT,Andrea Wong,555,NULL,NULL,NULL,NULL
+49202620,AS,Angela Debendetto,126,Armando Santana,14010074,NULL,NULL
+338067,FF-2,Anita Sit,497,Daniel Yu,340070,NULL,NULL
+755425,FF-2,Annie Mae Laurena,297,Aurora Mulchand,341247,Margarita Hernandez,31660735
+47801457,ACCT,Anthony Au-Yeung,29,NULL,NULL,NULL,NULL
+44995238,FF-2,Anthony Blow,655,Karen Nichols,25684213,Margarita Hernandez,31660735
+32334420,FF-2,Antonio Dela Merced,586,Aurora Mulchand,341247,Margarita Hernandez,31660735
+47801454,FRONTDESK,Aracele Govea,221,Cathy Severance,31516858,NULL,NULL
+30605971,FF-2,Arlene Adriano,5,Aurora Mulchand,341247,Margarita Hernandez,31660735
+21741940,FS,Arlene Verino,545,Cathy Severance,31516858,NULL,NULL
+14010074,FD,Armando Santana,479,Jack Jensen,16151,NULL,NULL
+341247,FF-1,Aurora Mulchand,376,Margarita Hernandez,31660735,NULL,NULL
+12221143,FF-2,AZUCENA AQUINO,23,Aurora Mulchand,341247,Margarita Hernandez,31660735
+342292,FF-1,Baohong Zhu,581,Anita Sit,338067,Daniel Yu,340070
+29436015,FA,Becky Chan,77,Armando Santana,14010074,Jack Jensen,16151
+42901482,FA,Benny Pausanos,670,Armando Santana,14010074,Jack Jensen,16151
+14616968,FF-2,Bernadette Villarin,548,Aurora Mulchand,341247,Margarita Hernandez,31660735
+45283076,FF-2,Bernardino Malasig,668,Aurora Mulchand,341247,Margarita Hernandez,31660735
+289755,AS,Beth Lyon,326,Jack Jensen,16151,NULL,NULL
+47801456,EXECUTIVE,Bob Gordon,217,NULL,NULL,NULL,NULL
+11036210,AS,Brandi Miranda,369,Jack Jensen,16151,NULL,NULL
+342276,FF-2,Carol Cheng,89,Anita Sit,338067,Daniel Yu,340070
+341000,FF-1,Cathy Poklay,419,Aurora Mulchand,341247,Margarita Hernandez,31660735
+31516858,FS,Cathy Severance,584,Bob Gordon,47801456,Raymond Sala,47801455
+31516927,DFS,Cathy Severance-OV,9110584,Bob Gordon,47801456,Raymond Sala,47801455
+17637906,FA,Charlie Arancia,24,Armando Santana,14010074,Jack Jensen,16151
+30606105,FF-1,Chi Yan Wong,561,Anita Sit,338067,Daniel Yu,340070
+20183257,FF-1,Christine Chan,76,Anita Sit,338067,Daniel Yu,340070
+52631446,FF-2,Christine Madlangawa,755,Aurora Mulchand,341247,NULL,NULL
+17619121,FS,CoCo Qiu,428,Cathy Severance,31516858,NULL,NULL
+3364514,FD,Cody Crosby,114,Jack Jensen,16151,NULL,NULL
+49202622,AS,Colma FH Admin,9991370,NULL,NULL,NULL,NULL
+341161,FF-2,Concepcion Marin,340,Sandra Guzman,606623,Margarita Hernandez,31660735
+31025201,FA,Cynthia Oi Yi Chan,78,Armando Santana,14010074,Jack Jensen,16151
+49182276,FA,Daniel Samuelsen,722,Armando Santana,14010074,Jack Jensen,16151
+340070,FF-2,Daniel Yu,573,Bob Gordon,47801456,Raymond Sala,47801455
+49182275,AS,Darcie Moore,720,Armando Santana,14010074,Jack Jensen,16151
+27666014,FA,Darnay McPherson,357,Armando Santana,14010074,Jack Jensen,16151
+27666016,FA,David Palmgren,404,Armando Santana,14010074,Jack Jensen,16151
+341120,FF-2,Dee DeRosas,131,Aurora Mulchand,341247,Margarita Hernandez,31660735
+27666017,FA,Diego Proano,425,Armando Santana,14010074,Jack Jensen,16151
+42901486,FA,Dominic Blandino,669,Armando Santana,14010074,Jack Jensen,16151
+49182271,AS,Doreen Litiana Tonga,529,Armando Santana,14010074,Jack Jensen,16151
+755431,FF-2,Edgardo Tividad,524,Aurora Mulchand,341247,NULL,NULL
+3762178,FF-1,Elaine Ling,311,Anita Sit,338067,Daniel Yu,340070
+45140318,FD,Elizabeth Bartz,659,Richard Riffel,3364453,Jack Jensen,16151
+340017,FF-2,Elizabeth DeGuzman,127,Aurora Mulchand,341247,Margarita Hernandez,31660735
+49182278,FA,Elizabeth Guillen,724,Armando Santana,14010074,Jack Jensen,16151
+46053033,FF-2,Elizabeth Sample,691,Sandra Guzman,606623,Margarita Hernandez,31660735
+44408640,FS,Eric Estoque,661,Cathy Severance,31516858,NULL,NULL
+42901489,FA,Eric Lono,658,Armando Santana,14010074,Jack Jensen,16151
+29436014,EMBALMER,Erin Feldman,167,Armando Santana,14010074,NULL,NULL
+341165,FF-1,Estrelita Arangcon,25,Aurora Mulchand,341247,Margarita Hernandez,31660735
+32334418,FF-2,Falafuta Satele,587,Aurora Mulchand,341247,Margarita Hernandez,31660735
+47801453,FRONTDESK,Front Desk Group,999991370,NULL,NULL,NULL,NULL
+46053020,FF-2,Gerber Marquez,700,Sandra Guzman,606623,Margarita Hernandez,31660735
+341284,FF-1,Grace Tang,519,Anita Sit,338067,Daniel Yu,340070
+20516464,FD,Gustavo Roldan,458,Richard Riffel,3364453,Jack Jensen,16151
+32569909,EMBALMER,Haley Hillman-Wilson,592,Armando Santana,14010074,NULL,NULL
+341270,FF-1,Hao Ding,136,Anita Sit,338067,Daniel Yu,340070
+31243669,EMBALMER,Heather McDonald,9999997,NULL,NULL,NULL,NULL
+27666018,FA,Helen Lum,323,Armando Santana,14010074,Jack Jensen,16151
+27666019,FA,Herbert Lum,322,Armando Santana,14010074,Jack Jensen,16151
+341201,FF-1,Hilda Zendejas,576,Sandra Guzman,606623,Margarita Hernandez,31660735
+47801458,ACCT,Hoan Tran,530,NULL,NULL,NULL,NULL
+30606161,FS,Ian Tuck Yan Ho,254,Cathy Severance,31516858,NULL,NULL
+25684315,FF-3,Independent 919,919,NULL,NULL,NULL,NULL
+16151,FD,Jack Jensen,270,Bob Gordon,47801456,Raymond Sala,47801455
+29294075,FA,Jack VanSweden,542,Jack Jensen,16151,NULL,NULL
+36334221,FA,Jai Yao Chen,598,Armando Santana,14010074,Jack Jensen,16151
+44343722,FS,James Dang,671,Cathy Severance,31516858,NULL,NULL
+341225,FF-1,Janette Ortiz,399,Sandra Guzman,606623,Margarita Hernandez,31660735
+422606,FF-1,Jenny Khai Ta,511,Anita Sit,338067,Daniel Yu,340070
+48555693,FF-2,Jerry Laurena,718,Aurora Mulchand,341247,Margarita Hernandez,31660735
+27666020,FA,Jess Chen,88,Armando Santana,14010074,Jack Jensen,16151
+617731,FF-2,Jewel B. Castillon,66,Aurora Mulchand,341247,Margarita Hernandez,31660735
+20183236,FF-1,Jin Feng Fong,172,Anita Sit,338067,Daniel Yu,340070
+341276,FF-1,Jin Sook Han,241,Aurora Mulchand,341247,Margarita Hernandez,31660735
+27666008,AS,Joanna Go,198,Richard Riffel,3364453,Jack Jensen,16151
+3364433,FD,John F. Crosby,113,Jack Jensen,16151,NULL,NULL
+27666021,FS,Jose Santana,480,Armando Santana,14010074,NULL,NULL
+339961,FF-2,Josefina Pablo,401,Aurora Mulchand,341247,Margarita Hernandez,31660735
+341199,FF-1,Josephine Navalta-V,379,Aurora Mulchand,341247,Margarita Hernandez,31660735
+755434,FF-2,Josephine Panopio,406,Aurora Mulchand,341247,Margarita Hernandez,31660735
+36784887,FA,Joshua Sidener,624,Jack Jensen,16151,NULL,NULL
+756495,FF-2,JULIETA MAGPANTAY,331,Aurora Mulchand,341247,Margarita Hernandez,31660735
+10336920,FF-2,Julita C. Oca,387,Aurora Mulchand,341247,Margarita Hernandez,31660735
+41839290,FF-1,Jun Min Zhang,646,Anita Sit,338067,Daniel Yu,340070
+49182274,AS,Juniper Hoeft Aho,727,Richard Riffel,3364453,Jack Jensen,16151
+25684213,FF-2,Karen Nichols,621,Margarita Hernandez,31660735,NULL,NULL
+42663157,FF-2,Karla Brown,643,Sandra Guzman,606623,Margarita Hernandez,31660735
+27666022,FA,Keith Wong,559,NULL,NULL,NULL,NULL
+16011626,FA,Kelly Chen,87,Armando Santana,14010074,Jack Jensen,16151
+44304210,FS,Kelly Martin,676,Herman Lopez,606617,NULL,NULL
+37734359,FF-1,Kevin Sui,626,Anita Sit,338067,Daniel Yu,340070
+46729346,FA,Khoa Lam,713,Armando Santana,14010074,Jack Jensen,16151
+32334416,FA,Larry Poon,588,Armando Santana,14010074,Jack Jensen,16151
+341169,FF-1,Laura Bernardino,45,Aurora Mulchand,341247,Margarita Hernandez,31660735
+341243,FF-2,Lesieli Fangupo,166,Sandra Guzman,606623,Margarita Hernandez,31660735
+32334412,FA,Lia Tealdi,522,Armando Santana,14010074,Jack Jensen,16151
+23669472,FA,Lily Wong,532,Armando Santana,14010074,Jack Jensen,16151
+341266,FF-1,Lisa Chan,71,Anita Sit,338067,Daniel Yu,340070
+17162221,FF-2,Loreta B. Tuason,533,Aurora Mulchand,341247,Margarita Hernandez,31660735
+3364554,AS,Lori Escobar,154,Jack Jensen,16151,NULL,NULL
+32334414,FA,Louise Yuen,589,Armando Santana,14010074,Jack Jensen,16151
+604135,FF-1,Lu Xie,564,Anita Sit,338067,Daniel Yu,340070
+31660735,FF-2,Margarita Hernandez,249,Bob Gordon,47801456,Raymond Sala,47801455
+47735208,FF-2,Maria Magdalena M.Cornejo,695,Sandra Guzman,606623,Margarita Hernandez,31660735
+48555711,FF-2,Maritza Maggard,667,Karen Nichols,25684213,Margarita Hernandez,31660735
+340546,FS,Mary Lee,303,Cathy Severance,31516858,NULL,NULL
+61378,FA,MaryAnn Cruz,117,Jack Jensen,16151,NULL,NULL
+34940416,FA,Marzine Parker,593,Armando Santana,14010074,Jack Jensen,16151
+43519923,AS,Masaley M. Fangupo,657,Armando Santana,14010074,Jack Jensen,16151
+50782142,FF-2,May Castllo,739,Aurora Mulchand,341247,NULL,NULL
+20183150,FF-1,May Hong Mac,328,Anita Sit,338067,Daniel Yu,340070
+41152658,FF-2,May Lan Sally Chung,99,Anita Sit,338067,Daniel Yu,340070
+49182272,AS,Mesepa Kaulave,620,Armando Santana,14010074,Jack Jensen,16151
+10141664,FS,Michael Marks,341,Cathy Severance,31516858,NULL,NULL
+44576528,FD,Michael Murphy,683,Armando Santana,14010074,Jack Jensen,16151
+341116,FF-2,Natalia Covacha,109,Aurora Mulchand,341247,Margarita Hernandez,31660735
+3902003,FF-2,Natividad Gutierrez,231,Sandra Guzman,606623,Margarita Hernandez,31660735
+42901484,FA,Nicole Walker,665,Armando Santana,14010074,Jack Jensen,16151
+27731008,EMBALMER,Not Embalmed,9990001,NULL,NULL,NULL,NULL
+43158657,FF-2,Olivet house Account,9990003,NULL,NULL,NULL,NULL
+342279,FF-2,Pacita Dispo,137,NULL,NULL,NULL,NULL
+755446,FF,Patricia Valenzuela,538,NULL,NULL,NULL,NULL
+27666024,FA,Phil Johnson,273,NULL,NULL,NULL,NULL
+43161393,FS,Philippa Leung,673,Cathy Severance,31516858,NULL,NULL
+341287,FF-1,Po Yee Ung,536,Anita Sit,338067,Daniel Yu,340070
+341129,FF-2,Precy Moya,374,Aurora Mulchand,341247,Margarita Hernandez,31660735
+47801455,EXECUTIVE,Raymond Sala,467,NULL,NULL,NULL,NULL
+37735062,FF-2,Reina Irias,627,Sandra Guzman,606623,Margarita Hernandez,31660735
+341193,FF-2,Ricardo Olivas,392,Sandra Guzman,606623,Margarita Hernandez,31660735
+3364453,FD,Richard Riffel,442,Jack Jensen,16151,NULL,NULL
+27666025,FA,Richard Rovati,463,NULL,NULL,NULL,NULL
+43080923,FA,Robert Smith,9990002,NULL,NULL,NULL,NULL
+30606020,FF-2,Roberto Buendia,51,Aurora Mulchand,341247,Margarita Hernandez,31660735
+341141,FF-2,Rolando Tabalno,512,Aurora Mulchand,341247,Margarita Hernandez,31660735
+46729368,FA,Ronaline Santos,711,Armando Santana,14010074,Jack Jensen,16151
+48351144,FF-2,Rosa Marquez,710,Sandra Guzman,606623,Margarita Hernandez,31660735
+37204707,FF-2,Rosa Ramirez,612,Sandra Guzman,606623,Margarita Hernandez,31660735
+31025199,FA,Ruben Naboa,33,Armando Santana,14010074,Jack Jensen,16151
+14614163,FF-2,Rustica Manuel,338,Aurora Mulchand,341247,Margarita Hernandez,31660735
+44576526,FD,Ryan Nasarow,680,Armando Santana,14010074,Jack Jensen,16151
+49182270,ACCT,Samantha Chan,73,NULL,NULL,NULL,NULL
+338304,FS,Sandra Guest,226,Armando Santana,14010074,NULL,NULL
+606623,FF-1,Sandra Guzman,235,Margarita Hernandez,31660735,NULL,NULL
+341195,FF-1,Shirley Ordoveza,395,Aurora Mulchand,341247,Margarita Hernandez,31660735
+37735126,FF-2,Stefan Mulchand,628,Cathy Severance,31516858,NULL,NULL
+341233,FF-2,Susan Ang,19,Aurora Mulchand,341247,Margarita Hernandez,31660735
+30389966,FS,Thomas Cromie,112,Armando Santana,14010074,NULL,NULL
+43161391,FS,Tiffany Ung,674,Cathy Severance,31516858,NULL,NULL
+341088,FF-2,Virna Anselmo,20,Aurora Mulchand,341247,Margarita Hernandez,31660735
+30606151,FF-1,Wan Bing Zhou,580,Anita Sit,338067,Daniel Yu,340070
+341272,FF-1,Winnie Dunbar,150,Sandra Guzman,606623,Margarita Hernandez,31660735
+37734393,FF-2,Xiaojian Huang,625,Anita Sit,338067,Daniel Yu,340070
+46729354,FA,Yiu Fai Ma,712,Armando Santana,14010074,Jack Jensen,16151
+36224116,FF-2,Yuan Bin Law,611,Anita Sit,338067,Daniel Yu,340070
+29217973,FF-2,Yuan Wen Lin,310,Anita Sit,338067,Daniel Yu,340070
+21658121,FF-2,Yun Ting Xie,566,Anita Sit,338067,Daniel Yu,340070
+341274,FF-1,Yvonne Eng,153,Anita Sit,338067,Daniel Yu,340070
+341149,FF-1,Zenaida Reyes,438,Aurora Mulchand,341247,Margarita Hernandez,31660735

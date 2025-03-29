@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="/css/callAssignedEmail.css">
+  </head>
+  <body>
+    <div class="container">
+        <p>Hello <%= employeeName %>,</p>
+        <p>
+            A call: <%= callId %> has been assigned to you. Please log on to the OnePortal application and navigate to the All Calls Panel, to review and do the needful.
+        </p>
+        <p>
+            Caller: <%= callerName %>
+          </p>
+        <p>
+          Reason: <%= callReason %>
+        </p>
+        <% if (decedentOrBeneficiaryName) { %>
+          <p>Decedent/Beneficiary: <%= decedentOrBeneficiaryName %></p>
+        <% } %>
+        <span>- OnePortal</span>
+    </div>
+  </body>
+</html>
